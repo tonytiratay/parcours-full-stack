@@ -1,7 +1,7 @@
 # Parcours MEAN STACK
 
-[MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/PRAIRIE.md)
-[MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/HTML.md)
+* [MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/PRAIRIE.md)
+* [MOIS 2 - HTML, CSS et BOOTSTRAP](https://github.com/tonytiratay/parcours-mean-stack/blob/master/HTML.md)
 
 
 
