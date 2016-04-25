@@ -1,6 +1,6 @@
 # Parcours MEAN STACK
 
-[MOIS 1 - La prairie](/PARIRIE.MD)
+[MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/PRAIRIE.MD)
 
 Mois 2 / La mise en forme
 
