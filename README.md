@@ -1,35 +1,9 @@
 # Parcours MEAN STACK
 
-[MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/PRAIRIE.MD)
-
-Mois 2 / La mise en forme
-
-1 - Objectif : Comprendre le HTML et le CSS
-
-Créer un site avec html5 et css3
-
-Créer son site internet par OC
-Exercice Front-End : Des divs, des divs, encore des divs !
-Faire un CV en ligne en HTML/CSS/Bootstrap
-Free Code Camp
+[MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/PRAIRIE.md)
+[MOIS 1 - La prairie](https://github.com/tonytiratay/parcours-mean-stack/blob/master/HTML.md)
 
 
-2 - Objectif : Comprendre les frameworks HTML et CSS
-
-Bootstrap et son système de grille (grid system)
-Website OnePage avec Bootstrap !
-Exercice Bootstrap/JQuery - Faire un portfolio interactif
-Bootstrap CSS from Twitter, par Grafikart
-Rocket landing - Le wagon
-
-3 - Objectif : S’initier aux interactions avec javascript
-
-Les variables, les tableaux et les objets en javascript
-Les objets en javascript - cours et application pratique
-Les tableaux en javascript - cours et application pratique
-Jouer avec une classe CSS en javascript
-Exercice javascript : Pierre, Feuille, Ciseaux
-Les opérateurs en javascript
 
 
 Mois 3 / Javascript & Interactions
