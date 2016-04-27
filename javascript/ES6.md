@@ -32,4 +32,33 @@ var ["Tarzan", "Jane", "Contents"] = personnes;
 * Si nous en mettons plus ?
 
 Essayez par vous même ! Vous allez voir, au fond, c'est assez logique :)
+###Créer des objets
+Supposons que l'on souhaite créer un objet "John" qui contienne les propriétés suivantes, qui ont déjà été déclarées.
+```javascript
+var prenom = "John;
+var nom = "Doeuf";
+var age = 35;
 
+// Exemple avec javascript actuel
+var john = {
+  prenom: prenom,
+  nom: nom
+  age: age
+};
+```
+Maintenant, avec ES6 nous pouvons l'écrire plus simplement.
+```javascript
+var prenom = "John;
+var nom = "Doeuf";
+var age = 35;
+
+// Exemple avec ES6
+var john = {
+  prenom,
+  nom,
+  age
+};
+
+// Pour plus de clarté, nous l'avons espacé sur plusieurs lignes, mais nous aurions tout aussi bien pû écrire
+// var john = {prenom, nom, age};
+```
