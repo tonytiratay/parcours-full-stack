@@ -111,3 +111,26 @@ console.log(b);
 Puisque qu'en javascript le mot var déclare une variable de façon globale (accessible depuis toutes l'application) il est très facile d'écraser une variable qui est en fait déjà utilisée, peut être par un autre script que le votre. 
 > Moralité : Let is the new var ! Très rares sont les cas où vous avez vraiment besoin d'utiliser var, donc privilégiez dés que possible l'utilisation de let à la place.
 
+###Le cas de Const
+Tout comme let, la portée de const est limitée au block courant. Mais la ressemblance s'arrête ici, puisque contrairement à let, une fois déclarée une variable const ne peux plus être modifiée. Le fait d'essayer ne vous donnera aucune erreur, simplement la nouvelle valeur ne sera pas assignée.
+Allez y, testez le code suivant : 
+```javascript
+const pi = 3.14;
+console.log(pi);
+const pi = "Pi vaut Pi et vaudra toujours Pi";
+console.log(pi);
+```
+##Les classes
+```javascript
+class Parent {
+  constructor() {
+  
+  }
+  methode1() {
+  
+  }
+  methode2() {
+  
+  }
+}
+```
