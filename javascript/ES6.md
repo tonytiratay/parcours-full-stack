@@ -86,6 +86,7 @@ function(){
 console.log(b);
 ```
 > Dans cet exemple b ne peut être affiché dans la console, car il n'existe que dans le scope de la fonction. Ce code retournerai une erreur.
+
 ###Block Scoping
 Considerons maintenant ce code.
 ```javascript
