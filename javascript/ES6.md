@@ -62,3 +62,15 @@ var john = {
 // Pour plus de clarté, nous l'avons espacé sur plusieurs lignes, mais nous aurions tout aussi bien pû écrire
 // var john = {prenom, nom, age};
 ```
+### Les Template String
+Grâce à un caractères spécial, le `(Alt + 7 sur windows, ou la touche £ sur mac) il est désormais possible de contenir du texte sur plusieurs lignes. Mais ça n'est pas tout, il est également possible d'intéerpréter directement des variables ou fonctions à l'intérieur. 
+Regardons l'exemple suivant : 
+```javascript
+var prenom = "Lenny"; var nom = "Bar";
+var presentation = `
+Bonjour ! Je m'appelle $(prenom) $(nom). 
+Vraiment ravi de faire votre connaissance. Ce que j'aime, c'est mon nom :)
+`;
+```
+> Dans cet exemple, non seuelement nous pouvons mettre notre String sur plusieurs lignes, mais vous pouvez noter également l'utilisation de $(). Ce symbole interprete directement son contenu pour l'insérer dans la chaîne de caractères. Pratique non ?
+
