@@ -25,3 +25,9 @@ Par exemple :
 var personnes = ["moi", "toi", "nous"];
 var ["Tarzan", "Jane", "Contents"] = personnes;
 ```
+> Nous obtenons donc l'association suivante : Tarzan = moi, Jane = Toi et Contents = nous. 
+
+### Mais que se passe-t-il si, dans le premier tableau 
+* nous mettons moins de variables que l'objet original en contient ? 
+* Et si nous en mettons plus ?
+* 
