@@ -19,6 +19,7 @@ Grâce à ES6 nous pouvons l'écrire de cette manière :
 var { bar, baz } = foo;
 ```
 > Si l'on console.log bar, nous obtiendrons 1, et pour baz 2. Il est à noter que le même procédé peut être employé avec des tableaux, à la place d'un objet.
+
 Par exemple : 
 ```javascript
 var personnes = ["moi", "toi", "nous"];
