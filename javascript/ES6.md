@@ -27,7 +27,9 @@ var ["Tarzan", "Jane", "Contents"] = personnes;
 ```
 > Nous obtenons donc l'association suivante : Tarzan = moi, Jane = Toi et Contents = nous. 
 
-### Mais que se passe-t-il si, dans le premier tableau 
-* nous mettons moins de variables que l'objet original en contient ? 
-* Et si nous en mettons plus ?
-* 
+### Mais que se passe-t-il dans le premier tableau 
+* Si nous mettons moins de variables que l'objet original en contient ? 
+* Si nous en mettons plus ?
+
+Essayez par vous même ! Vous allez voir, au fond, c'est assez logique :)
+
