@@ -35,7 +35,7 @@ Essayez par vous même ! Vous allez voir, au fond, c'est assez logique :)
 ###Créer des objets
 Supposons que l'on souhaite créer un objet "John" qui contienne les propriétés suivantes, qui ont déjà été déclarées.
 ```javascript
-var prenom = "John;
+var prenom = "John";
 var nom = "Doeuf";
 var age = 35;
 
@@ -48,7 +48,7 @@ var john = {
 ```
 Maintenant, avec ES6 nous pouvons l'écrire plus simplement.
 ```javascript
-var prenom = "John;
+var prenom = "John";
 var nom = "Doeuf";
 var age = 35;
 
