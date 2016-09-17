@@ -47,7 +47,6 @@ const rootReducer = combineReducers({
 export rootReducer;
 ```
 
-
 ##Action et Action Creator
 
 Tout changement dans le state de l'application ne peut se faire que par des actions.
@@ -55,13 +54,15 @@ Tout changement dans le state de l'application ne peut se faire que par des acti
 #### Action Creator
 
 C'est une simple fonction qui retourne une action. Par exemple :
+Dans actions/index.js
 
 ```javascript
-function(return {
+export function selectUsers(usersId){
   type: 'USER_SELECTED',
-  user: 'userIDjhg786'
+  usersId: userId
 })
 ```
+
 la fonction retourne une action, qui n'est rien d'autre qu'un objet avec au minimum une propriété "type".
 Toute autre propriété peut être ajoutée et nommée en fonction des besoins.
 
@@ -69,7 +70,7 @@ Toute autre propriété peut être ajoutée et nommée en fonction des besoins.
 
 La convention veut généralement que la deuxième propriété, qui contient les données, soit appelée "payload". Ici pour plus de clarté nous l'avons appelée user dans l'action creator.
 ```javascript
- { type: 'USER_SELECTED', user: 'userIDjhg786'}
+ { type: 'USER_SELECTED', usersId: ['userIDjhg786']}
 ```
 
 > Lorsqu'une action est envoyée, elle est automatiquement transmise à tous les reducers. Ces derniers, peuvent donc choisir de retourner un nouveau state ou non, en fonction du type et du contenu de l'action.
@@ -79,11 +80,16 @@ La convention veut généralement que la deuxième propriété, qui contient les
 Le but d'un container est d'être un lien entre Redux et React. Il s'agit d'un simple composant React, que l'on promeut "Container" grâce à la librairie react-redux. De cette façon, le composant a accès au state de l'application.
 
 Exemple dans conatiners/UsersList.js
+
 ```javascript
 import React, {Component} from 'react';
-import {connect} from 'react-redux'; // permet de convertir ce composant en container
+import {connect} from 'react-redux'; // Permet de convertir ce composant en container
+import { selectUsers } from '../actions/index.js'; // Importe l'action creator dont on a besoin
+import { bindActionCreators } from 'redux'; // Permet d'envoyer l'action à tous les reducers
 
-//On n'exporte pas le composant directement. Il est exporté grâce à connect en bas de page
+// On n'exporte pas le composant directement.
+// Il est exporté grâce à connect en bas de page
+
 class UsersList extends Component{
   renderlist(){
     return this.props.users.map((user)=>{
@@ -101,15 +107,24 @@ class UsersList extends Component{
 }
 
 function mapStateToProps(state){
-  //Tout ce qui sera retourné par cette fonction
-  //sera mappé en tant que props
+  // Tout ce qui sera retourné par cette fonction
+  // sera mappé en tant que props
+
   return {users: state.users.usersList};
+}
+
+function MapDispatchToProps(dispatch){
+  // Dés que selectUsers est appelé, le résultat
+  // doit être passé à tous nos reducers.
+
+  return bindActionCreators({selectUsers: selectUsers}, dispatch);
 }
 
   //grâce à la fonction connect, importé de react-redux, on exporte le composant
   //UsersList, en lui passant comme props ce qui est retourné par la fonction
   //mapStateToProps
-export default connect(mapStateToProps)(UsersList);
+
+export default connect(mapStateToProps, MapDispatchToProps)(UsersList);
 
 ```
 
