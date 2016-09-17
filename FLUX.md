@@ -10,11 +10,11 @@ Contient toutes les données de l'application. Il s'agit d'un state géant (Appl
 // C'est ce reducer qui se chargera de mettre à jour la propriété dans le state général.
 //Comme tous les composants tirent leurs données de ce state, toute l'application est automatiquement mise à jour.
 store = {
-	users: {
+	users: { // usersReducer
 		activeUser: {},
 		selectedUsers: [],
 	},
-	resources: {
+	resources: { // resourcesReducer
 		listRessources: [],
 		editedRessource: {},
 		viewingRessource: {}
@@ -24,6 +24,31 @@ store = {
 
 ##Reducers
 Un Reducer gère une propriété du state général.
+
+Exemple du reducer_users.js
+```javascript
+export default function(){
+  return {
+    activeUser: {id: 'A765FH786'},
+    selectedUsers: [user1, user3, user42]
+  }
+}
+```
+Puis dans reducers/index.js
+
+```javascript
+import { combineReducers } from 'redux';
+import ResourcesReducer from './reducer_books.js';
+import UsersReducer from './reducer_books.js';
+
+const rootReducer = combineReducers({
+  users: UsersReducer,
+  resources: ResourcesReducer
+});
+
+export rootReducer;
+```
+
 
 ##Action Dispatcher
 
