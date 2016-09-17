@@ -1,12 +1,28 @@
-# Simplonline the Redux Way
+# Redux
+Redux est une librairie en charge de la gestion du state d'applications simples ou complexes. Sont fonctionnement est basé sur la circulation à sens unique des données. En synthèse, une architecture Redux se compose des éléments suivants.
 
-## Redux
-Le système qui lie tous les autres ensemble
+#### Action Creator
+
+Une fonction qui a pour but de créer des actions.
+
+#### Action
+
+Une action est un simple objet javascript, composé au minimum d'une propriété 'type'. Elle comporte généralement une seconde propriété 'payload' qui contient les données à faire circuler.
+
+#### Le Root Reducer et les autres Reducers
+
+Le Root Reducer combine tous les autres reducers en un seul objet. Le store, ou le state de l'application. Chaque reducer reçoit toutes les actions. En fonction du type et des données de celles-ci, il pourra updater son state, et par extension le state général de l'application.
+
+#### Les Containers
+
+Ce sont des composants React à qui, grâce à la bibliothèque 'react-redux', on donne l'accès au state de l'application, ainsi que la possibilité d'émettre des actions.
 
 ![Alt text](./redux-schema.png)
 
-##Store
+## Store / State
+
 Contient toutes les données de l'application. Il s'agit d'un state géant (Application Level State), avec autant de propriétés que de types de données.  Par exemple :
+
 ```javascript
 // Les propriétés 'users' et 'resources' sont liées chacune à un Reducer.
 // C'est ce reducer qui se chargera de mettre à jour la propriété dans le state général.
@@ -50,7 +66,7 @@ const rootReducer = combineReducers({
 export rootReducer;
 ```
 
-##Action et Action Creator
+## Action et Action Creator
 
 Tout changement dans le state de l'application ne peut se faire que par des actions.
 
@@ -78,7 +94,7 @@ La convention veut généralement que la deuxième propriété, qui contient les
 
 > Lorsqu'une action est envoyée, elle est automatiquement transmise à tous les reducers. Ces derniers, peuvent donc choisir de retourner un nouveau state ou non, en fonction du type et du contenu de l'action.
 
-##Containers
+## Containers
 
 Le but d'un container est d'être un lien entre Redux et React. Il s'agit d'un simple composant React, que l'on promeut "Container" grâce à la librairie react-redux. De cette façon, le composant a accès au state de l'application.
 
