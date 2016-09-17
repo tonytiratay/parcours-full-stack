@@ -96,6 +96,11 @@ import { bindActionCreators } from 'redux'; // Permet d'envoyer l'action à tous
 class UsersList extends Component{
 
   renderlist(){
+		if(!this.props.users){
+			return(
+				<div> Sélectionnez un ou plusieurs utilisateur(s)</div>
+			)
+		}
     return this.props.users.map((user)=>{
       return (
         <li onClick={ () => this.props.selectUsers() } >{user.name}</li>
