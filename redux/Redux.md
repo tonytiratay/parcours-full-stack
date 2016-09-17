@@ -114,3 +114,14 @@ export default connect(mapStateToProps)(UsersList);
 ```
 
 ## React
+React ne fait donc jamais lui même de manipulation de données. On peut distinguer en gros deux types de composants
+
+#### Les Containers (ou Smarts Components)
+
+Dans le cas de Redux, une librairie 'connect' permet de transformer un composant classique, en lui ajoutant automatiquement en tant que props des parties du state général de l'application. Ce sont les seuls composants a avoir connaissance de redux.
+
+Il ne manipulent cependant jamais eux-même quelque donnée que ce soit. Ils émettent des actions, déclenchées ou non par l'utilisateur, et les reducers vont se charger de modifier ou non le state général. Le container héritera des changements du state automatiquement et les transmettra aux "dumbs components".
+
+#### Les Dumbs Components
+
+Ces composants sont des éléments React tout à fait classiques, ils reçoivent leurs props du container parent.
