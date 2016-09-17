@@ -48,7 +48,31 @@ export rootReducer;
 ```
 
 
-##Action Dispatcher
+##Action et Action Creator
+
+Tout changement dans le state de l'application ne peut se faire que par des actions.
+
+#### Action Creator
+
+C'est une simple fonction qui retourne une action. Par exemple :
+
+```javascript
+function(return {
+  type: 'USER_SELECTED',
+  user: 'userIDjhg786'
+})
+```
+la fonction retourne une action, qui n'est rien d'autre qu'un objet avec au minimum une propriété "type".
+Toute autre propriété peut être ajoutée et nommée en fonction des besoins.
+
+#### Action retournée par l'Action Creator
+
+La convention veut généralement que la deuxième propriété, qui contient les données, soit appelée "payload". Ici pour plus de clarté nous l'avons appelée user dans l'action creator.
+```javascript
+ { type: 'USER_SELECTED', user: 'userIDjhg786'}
+```
+
+> Lorsqu'une action est envoyée, elle est automatiquement transmise à tous les reducers. Ces derniers, peuvent donc choisir de retourner un nouveau state ou non, en fonction du type et du contenu de l'action.
 
 ##Containers
 
