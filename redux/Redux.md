@@ -19,15 +19,14 @@ store = {
 ```
 
 ##Reducers
-Un Reducer gère une propriété du state général.
+Un Reducer gère une propriété du state général. C'est une fonction qui reçoit deux arguments. Le state actuel, et une action.
+
+> ATTENTION ! Le state reçu par le reducer n'est pas LE state général de l'application. Il s'agit uniquement de la partie du state dont s'occupe le reducer.
 
 Exemple du reducer_users.js
 
 ```javascript
-export default function(){
-  return {
-    activeUser: {id: 'A765FH786'},
-    selectedUsers: [user1, user3, user42],
+export default function(state, action){
     usersList: [...]
   }
 }
@@ -58,8 +57,8 @@ Dans actions/index.js
 
 ```javascript
 export function selectUsers(usersId){
-  type: 'USER_SELECTED',
-  usersId: userId
+  type: 'USER_SELECTED', // Le type est obligatoire, et est écrit en majuscules. Généralement il vient d'un const plutôt qu'une string
+  usersId: usersId
 })
 ```
 
@@ -95,7 +94,7 @@ class UsersList extends Component{
   renderlist(){
     return this.props.users.map((user)=>{
       return (
-        <li>{user.name}</li>
+        <li onClick={ () => this.props.selectUsers() } >{user.name}</li>
       )
     });
   }
