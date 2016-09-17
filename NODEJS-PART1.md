@@ -1,6 +1,6 @@
 #Mois 5 / Les fondamentaux Node
 ##1 - Objectif : Initiation à Node
-* [Ressources déjà existantes :]()
+Ressources déjà existantes :
 * [Des applications ultra rapides avec NodeJS par OpenClassrooms]()
 * [Créer un tchat avec socket IO par Grafikart]()
 
