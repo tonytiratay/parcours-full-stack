@@ -3,6 +3,8 @@
 ## Redux
 Le système qui lie tous les autres ensemble
 
+![Alt text](./redux-schema.png)
+
 ##Store
 Contient toutes les données de l'application. Il s'agit d'un state géant (Application Level State), avec autant de propriétés que de types de données.  Par exemple :
 ```javascript
