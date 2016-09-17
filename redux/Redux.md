@@ -41,12 +41,10 @@ Puis dans reducers/index.js
 
 ```javascript
 import { combineReducers } from 'redux';
-import ResourcesReducer from './reducer_books.js';
-import UsersReducer from './reducer_books.js';
+import UsersReducer from './reducer_users.js';
 
 const rootReducer = combineReducers({
-  users: UsersReducer,
-  resources: ResourcesReducer
+  users: UsersReducer
 });
 
 export rootReducer;
