@@ -29,7 +29,7 @@ Exemple du reducer_users.js
 export default function(state = null, action){
   switch (action.type) {
     case 'USERS_SELECT':
-      return action.usersId;
+      return action.payload;
       break;
   }
   return state;
@@ -61,8 +61,8 @@ Dans actions/index.js
 
 ```javascript
 export function selectUsers(usersId){
-  type: 'USER_SELECTED', // Le type est obligatoire, et est écrit en majuscules. Généralement il vient d'un const plutôt qu'une string
-  usersId: usersId
+  type: 'USERS_SELECTED', // Le type est obligatoire, et est écrit en majuscules. Généralement il vient d'un const plutôt qu'une string
+  payload: usersId
 })
 ```
 
@@ -73,7 +73,7 @@ Toute autre propriété peut être ajoutée et nommée en fonction des besoins.
 
 La convention veut généralement que la deuxième propriété, qui contient les données, soit appelée "payload". Ici pour plus de clarté nous l'avons appelée usersId dans l'action creator.
 ```javascript
- { type: 'USER_SELECTED', usersId: ['userIDjhg786']}
+ { type: 'USERS_SELECTED', payload: ['userIDjhg786', 'userIDtera679']}
 ```
 
 > Lorsqu'une action est envoyée, elle est automatiquement transmise à tous les reducers. Ces derniers, peuvent donc choisir de retourner un nouveau state ou non, en fonction du type et du contenu de l'action.
