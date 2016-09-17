@@ -30,7 +30,8 @@ Exemple du reducer_users.js
 export default function(){
   return {
     activeUser: {id: 'A765FH786'},
-    selectedUsers: [user1, user3, user42]
+    selectedUsers: [user1, user3, user42],
+    usersList: [...]
   }
 }
 ```
@@ -53,5 +54,42 @@ export rootReducer;
 ##Action Dispatcher
 
 ##Containers
+
+Le but d'un container est d'être un lien entre Redux et React. Il s'agit d'un simple composant React, que l'on promeut "Container" grâce à la librairie react-redux. De cette façon, le composant a accès au state de l'application.
+
+Exemple dans conatiners/UsersList.js
+```javascript
+import React, {Component} from 'react';
+import {connect} from 'react-redux'; // permet de convertir ce composant en container
+
+//On n'exporte pas le composant directement. Il est exporté grâce à connect en bas de page
+class UsersList extends Component{
+  renderlist(){
+    return this.props.users.map((user)=>{
+      return (
+        <li>{user.name}</li>
+      )
+    });
+  }
+
+  render(){
+    return (
+      <ul>{this.renderlist()}</ul>
+    )
+  }
+}
+
+function mapStateToProps(state){
+  //Tout ce qui sera retourné par cette fonction
+  //sera mappé en tant que props
+  return {users: state.users.usersList};
+}
+
+  //grâce à la fonction connect, importé de react-redux, on exporte le composant
+  //UsersList, en lui passant comme props ce qui est retourné par la fonction
+  //mapStateToProps
+export default connect(mapStateToProps)(UsersList);
+
+```
 
 ## React
