@@ -26,8 +26,14 @@ Un Reducer gère une propriété du state général. C'est une fonction qui reç
 Exemple du reducer_users.js
 
 ```javascript
-export default function(state, action){
-    usersList: [...]
+export default function(state = null, action){
+  switch (action.type) {
+    case 'USERS_SELECT':
+      return action.usersId;
+      break;
+  }
+  return state;
+  // Comme redux ne permet pas de retourner undefined comme state, nous lui donnons null comme valeur par défaut.
   }
 }
 ```
