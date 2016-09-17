@@ -11,11 +11,10 @@ Contient toutes les données de l'application. Il s'agit d'un state géant (Appl
 // Les propriétés 'users' et 'resources' sont liées chacune à un Reducer.
 // C'est ce reducer qui se chargera de mettre à jour la propriété dans le state général.
 // Comme tous les composants tirent leurs données de ce state, toute l'application est automatiquement mise à jour.
+
 store = {
-	users: { // usersReducer => activeUser: {},	selectedUsers: [],
-	},
-	resources: { // resourcesReducer => listResources: [],	editResource: {}, viewResource: {}
-	}
+	users: usersReducer, // => activeUser: {},	selectedUsers: []
+	resources: resourcesReducer // => listResources: [],	editResource: {}, viewResource: {}
 }
 ```
 
@@ -23,6 +22,7 @@ store = {
 Un Reducer gère une propriété du state général.
 
 Exemple du reducer_users.js
+
 ```javascript
 export default function(){
   return {
@@ -91,6 +91,7 @@ import { bindActionCreators } from 'redux'; // Permet d'envoyer l'action à tous
 // Il est exporté grâce à connect en bas de page
 
 class UsersList extends Component{
+
   renderlist(){
     return this.props.users.map((user)=>{
       return (
@@ -107,6 +108,7 @@ class UsersList extends Component{
 }
 
 function mapStateToProps(state){
+
   // Tout ce qui sera retourné par cette fonction
   // sera mappé en tant que props
 
@@ -114,15 +116,16 @@ function mapStateToProps(state){
 }
 
 function MapDispatchToProps(dispatch){
+
   // Dés que selectUsers est appelé, le résultat
   // doit être passé à tous nos reducers.
 
   return bindActionCreators({selectUsers: selectUsers}, dispatch);
 }
 
-  //grâce à la fonction connect, importé de react-redux, on exporte le composant
-  //UsersList, en lui passant comme props ce qui est retourné par la fonction
-  //mapStateToProps
+//grâce à la fonction connect, importé de react-redux, on exporte le composant
+//UsersList, en lui passant comme props ce qui est retourné par la fonction
+//mapStateToProps
 
 export default connect(mapStateToProps, MapDispatchToProps)(UsersList);
 
