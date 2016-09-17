@@ -68,7 +68,7 @@ Toute autre propriété peut être ajoutée et nommée en fonction des besoins.
 
 #### Action retournée par l'Action Creator
 
-La convention veut généralement que la deuxième propriété, qui contient les données, soit appelée "payload". Ici pour plus de clarté nous l'avons appelée user dans l'action creator.
+La convention veut généralement que la deuxième propriété, qui contient les données, soit appelée "payload". Ici pour plus de clarté nous l'avons appelée usersId dans l'action creator.
 ```javascript
  { type: 'USER_SELECTED', usersId: ['userIDjhg786']}
 ```
@@ -121,11 +121,19 @@ function MapDispatchToProps(dispatch){
   // doit être passé à tous nos reducers.
 
   return bindActionCreators({selectUsers: selectUsers}, dispatch);
+
+  // Tout ce que retourne cette fonction sera passé comme props aux composants.
+  // Dans ce cas on peut utiliser: this.props.selectUsers => Appelle l'Action Creator
+  // Dans l'objet {selectUsers: selectUsers}, le premier selectUsers est le nom du props
+  // passé au composant, et le second est la fonction exportée par l'Action Creator.
+  // Le dispatch permet d'envoyer cette action à tous les reducers pour que les concernés
+  // puiseent la traiter
+
 }
 
-//grâce à la fonction connect, importé de react-redux, on exporte le composant
+//grâce à la fonction connect, importée de react-redux, on exporte le composant
 //UsersList, en lui passant comme props ce qui est retourné par la fonction
-//mapStateToProps
+//mapStateToProps et MapDispatchToProps
 
 export default connect(mapStateToProps, MapDispatchToProps)(UsersList);
 
