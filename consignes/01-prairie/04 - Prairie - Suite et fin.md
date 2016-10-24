@@ -8,7 +8,7 @@ J’espère que cette troisième semaine s’est bien passée ! Pour rappel, ce 
 * Apprendre les rudiments du fonctionnement d’internet
 * Commencer à apprendre à programmer
 
-Pour cette semaine, voici donc les consignes
+**Pour cette semaine, voici donc les consignes**
 
 ## OpenClassrooms
 

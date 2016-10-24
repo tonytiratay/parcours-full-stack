@@ -2,7 +2,7 @@
 
 Bonjour à tous,
 
-J’espère que la prairie s’est bien passée ! Nous entrons maintenant dans un cycle beaucoup plus long, qui va nous occuper les 2 prochains mois: La découverte approfondie du Front End. 
+J’espère que la prairie s’est bien passée ! Nous entrons maintenant dans un cycle beaucoup plus long, qui va nous occuper les 2 prochains mois: La découverte approfondie du Front End.
 
 * Finaliser votre apprentissage du HTML et CSS
 
@@ -10,9 +10,9 @@ J’espère que la prairie s’est bien passée ! Nous entrons maintenant dans u
 
 * Continuer de vous faire progresser en javascript
 
-Pour cette semaine, voici donc les consignes
+**Pour cette semaine, voici donc les consignes**
 
-**OpenClassrooms**
+## OpenClassrooms
 
 On continue le cours précédent, pour apprendre à créer notre propre site web, en attaquant plus spécifiquement les joies de la mise en forme avec le CSS.
 
@@ -26,7 +26,7 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 * [Les apparences dynamiques](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creation-d-apparences-dynamiques)
 
-**Grafikart**
+## Grafikart
 
 * [Le positionnement en CSS](https://www.grafikart.fr/tutoriels/html-css/positionner-css-83)
 
@@ -38,13 +38,13 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 * [Inititiation à jQuery](https://www.grafikart.fr/tutoriels/jquery/initiation-jquery-84)
 
-**Playlist Javascript**
+## Playlist Javascript
 
 [https://www.youtube.com/playlist?list=PL1aYsXmhJ1WceVjCYAPijGPNXEdjafbjx](https://www.youtube.com/playlist?list=PL1aYsXmhJ1WceVjCYAPijGPNXEdjafbjx)
 
 Ne pas oublier !
 
-Si vous êtes bloqué, n’oubliez pas de commencer par demander de l’aide à vos co-apprenants, dans le Discord. Si vous ne parvenez pas à vous débloquer par vous même, alors demandez à la communauté de TOUS les apprenants Simplon. 
+Si vous êtes bloqué, n’oubliez pas de commencer par demander de l’aide à vos co-apprenants, dans le Discord. Si vous ne parvenez pas à vous débloquer par vous même, alors demandez à la communauté de TOUS les apprenants Simplon.
 
 Et enfin, si aucune de ces solutions ne vous a aidée alors n’hésitez pas à expliquer ce qui vous bloque dans ce document. Chaque semaine je vous ferais un retour pour éclaircir tous les points qui y sont soulevés :)
 
@@ -53,4 +53,3 @@ Et enfin, si aucune de ces solutions ne vous a aidée alors n’hésitez pas à 
 A votre dispo pour toute question dans Discord :)
 
 Tony
-
