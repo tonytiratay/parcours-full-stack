@@ -56,6 +56,8 @@ Merci de regarder cette vidéo de Grafikart pour en apprendre les rudiments.
 
 * [Voir la vidéo](https://www.youtube.com/watch?v=6hikjzymd0c)
 
+#### Attention ! Tout ce qui importe dans cette vidéo est la syntaxe du markdown. Aucune importance si vous ne comprenez / retenez pas le reste ;)
+
 > Essayez de voir si un plugin existe pour votre editeur, afin de pouvoir afficher correctement des fichiers .md (markdown).
 
 ## Codecademy
