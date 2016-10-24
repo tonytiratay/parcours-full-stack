@@ -21,9 +21,42 @@ Nous allons commencer dés maintenant un apprentissage un peu plus poussé (et t
 * [Créer des liens](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens)
 * [Les images](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/les-images-18)
 
-## ATOM
+## ATOM, Brackets, Sublime text...
+
+Ce sont trois éditeurs de codes très utilisés dans le milieu du développement. Bien sur, il en existe une multitude d'autres. Nous allons parler brièvement de ces 3 editeurs, afin que vous puissiez choisir votre préféré pour cette formation.
+
+#### ATOM
+
+C'est le petit dernier. De par son jeune âge, il peut parfois être un petit peu instable, mais il offre un gros potentiel. Je n'ai pas pu trouver de tutoriaux en français sur son utilisation, donc si c'est un critère important pour vous, je vous conseille l'un des deux suivants :)
+* [Atom Install & Setup (English)](https://www.youtube.com/watch?v=hPC6keUUiTA)
+* [Top 5 Features (English)](https://www.youtube.com/watch?v=UYPgPyxwF28)
+
+> *Note: * Atom est entièrement écrit en javascript, avec Node JS notamment. Comme ces langages font partie de la formation, je pense que c'est un atout non négligeable :)
+
+#### BRACKETS
+Brackets est un peu plus âgé qu'ATOM, et est lui aussi écrit en javascript. A l'initiative de la société Adobe, il a été OpenSourcé :)
+
+* [Voir la vidéo de présentation Grafikart](https://www.grafikart.fr/tutoriels/html-css/brackets-532)
+
+#### SUBLIME TEXT
+
+Sublime Text est donc le plus ancien de ces 3 éditeurs. Hautement utilisé dans le milieu, vous ne pouvez pas vous tromper en l'utilisant :)
+
+* [Voir la vidéo de présentation Grafikart](https://www.grafikart.fr/tutoriels/sublime-text-2/sublime-text-2-180)
+
+> Ces 3 éditeurs sont extensibles grâce à des plugins. Il existe une multitude de fonctionnalités que vous pouvez ajouter à ces éditeurs pour les rendre plus pratiques. Nous vous conseillons de faire une petite rechercher pour trouver les plus utilisés, afin d'en essayer quelques uns.
 
 ## Markdown
+
+Le Markdown est une syntaxe de mise en forme. De par son utilisation de balises (gros titre, gras, citation, bloc de code etc.) il s'apparente un peu au HTML.
+
+> Par exemple cette fiche est rédigée en markdown.
+
+Merci de regarder cette vidéo de Grafikart pour en apprendre les rudiments.
+
+* [Voir la vidéo](https://www.youtube.com/watch?v=6hikjzymd0c)
+
+> Essayez de voir si un plugin existe pour votre editeur, afin de pouvoir afficher correctement des fichiers .md (markdown).
 
 ## Codecademy
 

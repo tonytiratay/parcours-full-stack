@@ -40,7 +40,7 @@ Pour cette semaine, vous allez commencer à préparer votre machine en installan
 
 Ne vous contentez pas de lire la vidéo, faites le en même temps ! Choisissez la vidéo d’installation correspondant à votre machine, puis suivez les 4 premiers chapitres de **Travailler avec Git**
 
-*[Cliquez ici et suivez les chapitres entourés en vert ci dessou*s](https://www.grafikart.fr/formations/git)
+*[Cliquez ici et suivez les chapitres entourés en vert ci dessous*](https://www.grafikart.fr/formations/git)
 
 ## Ne pas oublier !
 
