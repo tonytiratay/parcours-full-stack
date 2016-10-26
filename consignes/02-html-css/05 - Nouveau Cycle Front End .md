@@ -1,6 +1,6 @@
 ![image alt text](image_0.jpg)
 
-Bonjour à tous,
+**Bonjour à tous,**
 
 J’espère que la prairie s’est bien passée ! Nous entrons maintenant dans un cycle beaucoup plus long, qui va nous occuper les 2 prochains mois: La découverte approfondie du Front End.
 
