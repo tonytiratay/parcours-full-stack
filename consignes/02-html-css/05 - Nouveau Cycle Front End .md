@@ -38,9 +38,9 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 * [Inititiation à jQuery](https://www.grafikart.fr/tutoriels/jquery/initiation-jquery-84)
 
-## Playlist Javascript
+## Exercices
 
-[https://www.youtube.com/playlist?list=PL1aYsXmhJ1WceVjCYAPijGPNXEdjafbjx](https://www.youtube.com/playlist?list=PL1aYsXmhJ1WceVjCYAPijGPNXEdjafbjx)
+
 
 Ne pas oublier !
 
