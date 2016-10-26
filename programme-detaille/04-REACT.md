@@ -1,6 +1,6 @@
-#Mois 4 / Découverte d’Angular
+# Mois 4 / Découverte de React
 
-##1 - Objectif : Comprendre Angular
+## 1 - Objectif : Comprendre React
 
 * [Développez vos applis web avec angular par OC](https://openclassrooms.com/courses/developpez-vos-applications-web-avec-angularjs)
 * [Validation de formulaire avec Angular par OC](https://openclassrooms.com/courses/validation-de-formulaire-simplifiee-avec-angularjs)

@@ -1,5 +1,5 @@
-#Mois 6 / Serveur, API et Node
-##1 - Objectif : Construire un serveur et une BDD
+# Mois 6 / Serveur, API et Node
+## 1 - Objectif : Construire un serveur et une BDD
 HTTP et Web Server
 * [Théorie / Concept: TCP/IP]()
 * [Théorie / Concept: Addresses et Ports]()
@@ -12,7 +12,7 @@ HTTP et Web Server
 * [Renvoyer du JSON]()
 * [Le Routing]()
 
-##2 - Objectif : Comprendre et maitriser Express
+## 2 - Objectif : Comprendre et maitriser Express
 Express comme gestionnaire de routes
 * [Installer et initier un serveur web]()
 * [Routes]()
@@ -22,7 +22,7 @@ Express comme gestionnaire de routes
 * [RESTful API et JSON]()
 * [Structurer une application]()
 
-##3 - Objectif : Comprendre les bases de données
+## 3 - Objectif : Comprendre les bases de données
 Javascript, JSON, et Databases
 * [Théorie / Concept: Bases de données relationnelles et SQL]()
 * [Node et MySQL]()

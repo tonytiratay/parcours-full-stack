@@ -1,6 +1,6 @@
-#Mois 2 / La mise en forme
+# Mois 2 / La mise en forme
 
-##1 - Objectif : Comprendre le HTML et le CSS
+## 1 - Objectif : Comprendre le HTML et le CSS
 
 * [Créer un site avec html5 et css3 par OC]()
 * [Exercice Front-End : Des divs, des divs, encore des divs !]()
@@ -8,7 +8,7 @@
 * [Free Code Camp]()
 
 
-##2 - Objectif : Comprendre les frameworks HTML et CSS
+## 2 - Objectif : Comprendre les frameworks HTML et CSS
 
 * [Bootstrap et son système de grille (grid system)]()
 * [Website OnePage avec Bootstrap !]()
@@ -16,7 +16,7 @@
 * [Bootstrap CSS from Twitter, par Grafikart]()
 * [Rocket landing - Le wagon]()
 
-##3 - Objectif : S’initier aux interactions avec javascript
+## 3 - Objectif : S’initier aux interactions avec javascript
 
 * [Les variables, les tableaux et les objets en javascript]()
 * [Les objets en javascript - cours et application pratique]()

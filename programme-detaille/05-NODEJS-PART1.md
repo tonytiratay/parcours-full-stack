@@ -1,12 +1,12 @@
-#Mois 5 / Les fondamentaux Node
-##1 - Objectif : Initiation à Node
+# Mois 5 / Les fondamentaux Node
+## 1 - Objectif : Initiation à Node
 Ressources déjà existantes :
 * [Des applications ultra rapides avec NodeJS par OpenClassrooms]()
 * [Créer un tchat avec socket IO par Grafikart]()
 
 Introduction et mise en place du cours
 
-##2 - Objectif : Comprendre ce qu’il y a derrière Node
+## 2 - Objectif : Comprendre ce qu’il y a derrière Node
 * [V8: Le moteur de rendu Javascript]()
 * [Théorie / Concept: Processeurs, Language Machine , et C++]()
 * [A propos de Javascript: Javascript Engines et ECMAScript]()
@@ -18,7 +18,7 @@ Introduction et mise en place du cours
 * [Le coeur de Javascript]()
 * [Installer et exécuter du code dans Node]()
 
-##3 - Objectif : Comprendre les modules Nodes
+## 3 - Objectif : Comprendre les modules Nodes
 Modules, Exports, et Require
 * [Théorie / Concept: Les Modules]()
 * [A propos de Javascript: First-Class Functions et Function Expressions]()
@@ -42,7 +42,7 @@ NPM: Node Package Manager
 * [npm Installation globale des modules]()
 * [Précautions lorsque l’on utilise le code d’autres personnes]()
 
-##4 - Objectif : Comprendre les événements
+## 4 - Objectif : Comprendre les événements
 Events et Event Emitter
 * [Théorie / Concept: Les Events]()
 * [A propos de Javascript: Object properties, First Class Functions, et Arrays]()
