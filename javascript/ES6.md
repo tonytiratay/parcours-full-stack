@@ -1,5 +1,8 @@
 # ES6 Cheat Sheet
 ## Transpiler en javascript actuel
+
+Il est nécessaire de compiler le code ES6 en ES5, afin de s'assurer de sa compatibilité avec tous les navigateurs. Pour cela ces 2 outils sont très utilisés.
+
 * BabelJS.IO pour
 * traceur by google
 
@@ -12,17 +15,22 @@ var foo = {
 ```
 En javascript traditionnel, pour assigner ces clés à des variables, on devrait procéder comme suit :
 ```javascript
-var bar = foo.bar; var baz = foo.baz;
+var bar = foo.bar;
+var baz = foo.baz;
 ```
 Grâce à ES6 nous pouvons l'écrire de cette manière :
 ```javascript
 var { bar, baz } = foo;
+console.log(bar); // 1
+console.log(baz); // 2
 ```
-> Si l'on console.log bar, nous obtiendrons 1, et pour baz 2. Il est à noter que le même procédé peut être employé avec des tableaux, à la place d'un objet.
 
 ### Par exemple :
 ```javascript
+// on stocke dans "personnes" une liste de prénoms
 var personnes = ["moi", "toi", "nous"];
+
+//On déstructure pour créer trois variables, qui contiendront chacune un élément du tableau.
 var ["Tarzan", "Jane", "Contents"] = personnes;
 ```
 > Nous obtenons donc l'association suivante : Tarzan = moi, Jane = Toi et Contents = nous.
@@ -66,7 +74,8 @@ var john = {
 Grâce à un caractères spécial, le `(Alt + 7 sur windows, ou la touche £ sur mac) il est désormais possible de contenir du texte sur plusieurs lignes. Mais ça n'est pas tout, il est également possible d'interpréter directement des variables ou fonctions à l'intérieur.
 Regardons l'exemple suivant :
 ```javascript
-var prenom = "Lenny"; var nom = "Bar";
+var prenom = "Lenny";
+var nom = "Bar";
 var presentation = `
 Bonjour ! Je m'appelle $(prenom) $(nom).
 Vraiment ravi de faire votre connaissance. Ce que j'aime, c'est mon nom :)
