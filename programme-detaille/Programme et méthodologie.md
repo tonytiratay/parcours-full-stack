@@ -1,4 +1,4 @@
-![image alt text](image_0.jpg)
+![image alt text](../consignes/image_0.jpg)
 
 # Programme Classe en ligne
 
