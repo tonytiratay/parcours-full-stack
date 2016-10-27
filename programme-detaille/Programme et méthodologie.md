@@ -82,8 +82,8 @@ En fonction de vos appétences, vous découvrirez les bonnes pratiques, méthode
 * Les requêtes et verbes HTTP
 * HTML / CSS
 * Javascript / jQuery
-* Bootstrap / Foundation
-* React / Mobx
+* Bootstrap / Semantic UI
+* React
 * ES2015
 * Promises
 * POO
