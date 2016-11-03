@@ -38,7 +38,7 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 Section à venir jeudi soir
 
-Ne pas oublier !
+## Ne pas oublier !
 
 Si vous êtes bloqué, n’oubliez pas de commencer par demander de l’aide à vos co-apprenants, dans le Discord. Si vous ne parvenez pas à vous débloquer par vous même, alors demandez à la communauté de TOUS les apprenants Simplon.
 
