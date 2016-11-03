@@ -36,7 +36,7 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 ## Exercices
 
-* (Ajouter une police externe à son site web avec des web fonts)[https://www.e-monsite.com/pages/tutoriels/configuration-avancee-du-site/ajouter-une-police-externe-a-son-site-avec-des-web-fonts.html]
+Section à venir jeudi soir
 
 Ne pas oublier !
 
