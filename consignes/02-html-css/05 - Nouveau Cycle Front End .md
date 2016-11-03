@@ -32,15 +32,11 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 * [Créer un menu déroulant en CSS3](https://www.grafikart.fr/tutoriels/html-css/menu-deroulant-css-32)
 
-* [Effet de parallaxe en CSS](https://www.grafikart.fr/tutoriels/html-css/parallaxe-css-88)
-
 * [Créer et animer un bouton animé en CSS3](https://www.grafikart.fr/tutoriels/html-css/creer-et-animer-un-bouton-en-css3-214)
-
-* [Inititiation à jQuery](https://www.grafikart.fr/tutoriels/jquery/initiation-jquery-84)
 
 ## Exercices
 
-
+* (Ajouter une police externe à son site web avec des web fonts)[https://www.e-monsite.com/pages/tutoriels/configuration-avancee-du-site/ajouter-une-police-externe-a-son-site-avec-des-web-fonts.html]
 
 Ne pas oublier !
 
