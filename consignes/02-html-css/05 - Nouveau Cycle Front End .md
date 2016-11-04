@@ -34,6 +34,8 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 * [Créer et animer un bouton animé en CSS3](https://www.grafikart.fr/tutoriels/html-css/creer-et-animer-un-bouton-en-css3-214)
 
+* [Les FlexBox](https://www.grafikart.fr/tutoriels/html-css/flexbox-806)
+
 ## Exercices
 
 Section à venir jeudi soir
