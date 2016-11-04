@@ -38,7 +38,7 @@ On continue le cours précédent, pour apprendre à créer notre propre site web
 
 ## Exercices
 
-Section à venir jeudi soir
+[Créez votre CV](https://github.com/tonytiratay/exo-html-cv)
 
 ## Ne pas oublier !
 
