@@ -44,7 +44,7 @@ Afin d'avoir un maximum de temps pour la pratique, nous allons terminer le cours
 
 * Pour rendre le menu de navigation responsive. La liste des boutons doit passer d'un affichage horizontal à un affichage vertical.
 
-* Ajoutez un formulaire de contact, dans la zone contact. L'utilisateur doit juste avoir à rentrer son mail et son message. Il peut également cocher la case "S'abonner à la newsletter"
+* Ajoutez un formulaire de contact, dans la zone contact. L'utilisateur doit juste avoir à rentrer son mail et son message. Il peut également cocher la case "S'abonner à la newsletter". Un bouton envoyer permettra (plus tard) à l'utilisateur d'envoyer le message. Faites le bouton dés à présent, nous verrons plus tard pour l'envoi du message.
 
 * Ajoutez un tableau dans la zone travaux. Le tableau servira à lister les travaux réalisés pendant la formation et comportera 4 colonnes.
 
