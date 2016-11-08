@@ -55,6 +55,8 @@ Afin d'avoir un maximum de temps pour la pratique, nous allons terminer le cours
 
 * Modifier la case "S'abonner à la newsletter" pour lui donner le orange de votre site, à partir de [l'exercice de Grafikart](https://www.grafikart.fr/tutoriels/html-css/checkbox-css-423).
 
+* Lier un fichier index.js à votre html pour afficher une alerte "Bienvenue sur mon site". Nous ne garderons évidemment pas ce code, le but est simplement de vérifier que le javascript est bien appelé.
+
 > **Optionnel !**
 > Je vous invite à regarder [cette vidéo Grafikart](https://www.grafikart.fr/tutoriels/html-css/portfolio-integration-236) d'une heure et demi sur la création d'un portfolio personnel. On y aborde bien évidemment le HTML et le CSS, mais également le jQuery. Cela vous permettra de prendre un peu d'avance car nous aborderons le jquery plus tard, et il est intéressant que vous commenciez à pouvoir imaginer à quoi cela pourra nous servir, et pourquoi nous en avons ou non besoin.
 
