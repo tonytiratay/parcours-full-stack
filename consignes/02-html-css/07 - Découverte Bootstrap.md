@@ -4,7 +4,7 @@
 
 L'heure est venue de découvrir le framework Bootstrap. L'idée est de l'appréhender par la pratique avant tout, donc pour cette semaine, voici les consignes.
 
-## Présentation de Bootstrap par l'animateur
+## Présentation de Bootstrap
 
 Pour ceux qui auraient raté le dernier point vidéo, regardez cette vidéo dans laquelle je vous fais une présentation de Bootstrap.
 
