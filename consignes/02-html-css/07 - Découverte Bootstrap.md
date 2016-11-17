@@ -35,20 +35,21 @@ Créer une page d'accueil pour le lancement d'un produit. En une seule page le s
 
 ### Portfolio
 
-Ce site doit ressembler à celui d'un artiste souhaitant mettre en avant ces images. Il est composé de 3 grosses sections.
+Ce site doit ressembler à celui d'un artiste souhaitant mettre en avant ses images. Il est composé de 3 grosses sections.
 
 **Accueil**
+
 La plus haute des sections, elle contient en arriere plan l'image préférée de l'artiste, ainsi qu'un h1 pour mettre son nom, et un h2 pour mettre son titre (par ex: Plasticien, photographe, musicien etc)
 
 **Portfolio**
 
 Cette section présente sous forme de grille 12 photos.
 
-Sur un écran d'ordinateur, elles doivent être disposées en lignes de 4 images (soit 3 lignes)
+* Sur un écran d'ordinateur, elles doivent être disposées en lignes de 4 images (soit 3 lignes)
 
-Sur un écran moyen, 2 images par ligne, soit 6 lignes en toute
+* Sur un écran moyen, 2 images par ligne, soit 6 lignes en toute
 
-Sur un petit écran, chaque image prend toute la ligne, soit 12 lignes en tout.
+* Sur un petit écran, chaque image prend toute la ligne, soit 12 lignes en tout.
 
 **Diaporama**
 
