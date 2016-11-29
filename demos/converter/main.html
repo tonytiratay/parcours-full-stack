@@ -1,0 +1,71 @@
+<head>
+  <title>converter</title>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h3>TVA-CONVERTER!</h3>
+      <div class="row">
+        <form class="form-inline ">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon">Pour une TVA de </div>
+              <input type="number" class="form-control input-lg" id="tva" placeholder="20">
+              <div class="input-group-addon">%</div>
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">convertir</div>
+              <input type="number" class="form-control input-lg" id="input-value" placeholder="20">
+              <div class="input-group-addon">€</div>
+            </div>
+            <div class="form-group">
+              <label for="sel1">Choisir:</label>
+              <select class="form-control" id="sel1">
+                <option>TTC</option>
+                <option>HT</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Convertir</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <h4>Valeur de la TVA (%)</h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <h4>Valeur à Convertir</h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <h4>HT &lsaquo;--&rsaquo; TTC</h4>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <h4>RÉSULTAT</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        20
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        10
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        HT
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        12 TTC
+      </div>
+    </div>
+  </div>
+
+</body>
