@@ -31,7 +31,7 @@ A l'aide de ces fameuses boites de dilogues, et des cours vidéos ci dessus, ess
 
 * Si le joueur 2 trouve le résultat alors afficher un simple "gagné"
 
-Pour aller plus loin
+#### Pour aller plus loin
 
 Si vous avez réussi facilement l'exercice, essayer de complexifier votre code. Voici quelques postes d'amélioration.
 
