@@ -1,0 +1,20 @@
+html, body {
+  height: 100% !important;
+  margin-top: -10px;
+}
+
+#section-landing{
+  min-height: 100%;
+  background: url(../img/drone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+.mise-en-avant {
+  padding-top: 200px;
+  background: rgba(0,0,0,0.5);
+}

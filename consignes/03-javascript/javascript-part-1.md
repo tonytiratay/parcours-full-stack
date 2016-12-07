@@ -2,7 +2,7 @@
 
 **Bonjour à tous,**
 
-Nous allons partir pour cette semaine sur la réalisation côté javascript du convertisseur commencé la semaine dernière. En plus de la séance vidéo de démonstration live de cette semaine, vous trouverez ci dessous des ressources pour commencer à aborder sérieusement le javascript.
+Continuer d'explorer un peu plus en profondeur le javascript. Ce mois ci y est consacré, y compris en fin de cycle du point de vue de se liens avec le HTML
 
 ## Playlist javascript
 
@@ -14,19 +14,64 @@ Nous allons partir pour cette semaine sur la réalisation côté javascript du c
 * [Découverte et définition des objets en JavaScript](https://www.youtube.com/watch?v=9KAZQQoGhYE&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=18)
 * [Valeurs primitives et objets natifs](https://www.youtube.com/watch?v=w6dXNYW7BTY&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=19)
 * [Créer des objets en JavaScript](https://www.youtube.com/watch?v=AgKYCm6df6o&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=20)
+* [Les méthodes de l'objet String](https://www.youtube.com/watch?v=ep4-dpA-pUw&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=21)
+* [Numbers, propriétés et méthodes](https://www.youtube.com/watch?v=DqkPxkpj3gU&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=22)
+* [Array et tableaux](https://www.youtube.com/watch?v=U_yJypsGMeo&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=23)
+
 
 
 ## Exercices
 
-http://simplonline.co/ressources/13-ressources/86-website-onepage-avec-bootstrap
+#### CV
 
-http://simplonline.co/les-parcours/game-of-codes/173-semaine-9-game-of-codes
+Reprenez votre CV HTML, et éditez votre fichier js pour y coder ce qui suit.
+
+**Créer une fonction**
+
+Créez une fonction qui prend 3 paramètres, et qui retournera un objet. Cet objet contient les propriétés suivantes :
+
+* Titre (String)
+* Actif (Boolean)
+
+Utilisez les paramètres pour pré-remplir les valeurs de l'objet retourné.
+
+  Exemple:
+
+```javascript
+
+// var CreerMenu = function(titre, actif){
+// ...
+// };
 
 
-http://simplonline.co/ressources/ress-defis/151-exercice-javascript-les-tableaux
+CreerMenu("Accueil", false);
 
-http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
+//Cette fonction retourne
 
-http://simplonline.co/ressources/ress-tutos/174-jouer-avec-une-classe-css-en-javascript
+=> {
+  titre : "accueil",
+  actif: false
+}
+```
+**Créer un tableau**
 
-http://simplonline.co/les-parcours/game-of-codes/183-par
+Créez une variable "menus" qui contiendra une liste d'objets. Vous vous en doutez, nous allons utiliser la fonction que nous avons crééé pour créer autant d'objets que notre site possède de sections.
+
+* Accueil
+* Formation
+* Travaux
+* Contact
+
+Si vous console.loggez votre variable "menus" vous devez obtenir un tableau de 4 objets.
+
+## Pour aller plus loin
+
+Les consignes ci dessous ne sont pas obligatoires. Elles ne concernent que les personnes ayant le temps de pousser plus loin leur apprentissage.
+
+* Essayez de chercher comment ajouter ou supprimer un élément d'un tableau.
+
+* Essayez de modifier votre fonction pour qu'elle ne prenne plus comme paramètres 2 String et un Boolean, mais un seul paramètre "objet" qui contient toutes les informations nécéssaires.
+
+Essayez d'anticiper à quoi pourraient ressembler les autres fonctions pour générer d'autres objets dont nous avons besoin pour faire évoluer le site.
+
+Par exemple, la section Travaux va contenir une liste travaux, dont vous connaissez déjà propriétés, puisque vous connaissez les titres des colonnes :)
