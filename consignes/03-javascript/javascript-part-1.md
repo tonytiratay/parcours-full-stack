@@ -28,7 +28,7 @@ Reprenez votre CV HTML, et éditez votre fichier js pour y coder ce qui suit.
 
 **Créer une fonction**
 
-Créez une fonction qui prend 3 paramètres, et qui retournera un objet. Cet objet contient les propriétés suivantes :
+Créez une fonction qui prend des paramètres, et qui retournera un objet. Cet objet contient les propriétés suivantes :
 
 * Titre (String)
 * Actif (Boolean)
@@ -75,4 +75,4 @@ Les consignes ci dessous ne sont pas obligatoires. Elles ne concernent que les p
 
 * Par exemple, la section Travaux va contenir une liste travaux, dont vous connaissez déjà propriétés, puisque vous connaissez les titres des colonnes :)
 
-* Reprenez le code de l'exercice du plus ou moins, et essayez de le refaire en utilisant ces nouvelles connaissances. Je ne peux que vous le conseiller, cela rendra votre code beaucoup plus lisible, et utilisable. Essayez en le refaisant d'y mettre autant de "beauté" que vous pouvez. Une indentation parfaite, une description de chaque chose limpide, des noms de variables qui parlent, et en utilisant au maximum les éléments suivants : Fonctions, Objets, Tableaux. 
+* Reprenez le code de l'exercice du plus ou moins, et essayez de le refaire en utilisant ces nouvelles connaissances. Je ne peux que vous le conseiller, cela rendra votre code beaucoup plus lisible, et utilisable. Essayez en le refaisant d'y mettre autant de "beauté" que vous pouvez. Une indentation parfaite, une description de chaque chose limpide, des noms de variables qui parlent, et en utilisant au maximum les éléments suivants : Fonctions, Objets, Tableaux.
