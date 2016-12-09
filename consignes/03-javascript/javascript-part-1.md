@@ -78,3 +78,9 @@ Les consignes ci dessous ne sont pas obligatoires. Elles ne concernent que les p
 * Reprenez le code de l'exercice du plus ou moins, et essayez de le refaire en utilisant ces nouvelles connaissances. Je ne peux que vous le conseiller, cela rendra votre code beaucoup plus lisible, et utilisable. Essayez en le refaisant d'y mettre autant de "beauté" que vous pouvez. Une indentation parfaite, une description de chaque chose limpide, des noms de variables qui parlent, et en utilisant au maximum les éléments suivants : Fonctions, Objets, Tableaux.
 
 * Reprenez l'exerice du convertisseur HT TTC, et essayez de le réecrire intégralement en n'utilisant que des objets et des tableaux (qui eux peuvent contenir fonctions, string, numbers, boolean, tableaux ou autres objets).
+
+Pour vous aider, à commencer à appréhender la logique de POO (programation orientée objet) je vous invite également à regarder cette petite Introduction.
+
+https://www.grafikart.fr/tutoriels/javascript/poo-javascript-object-466
+
+N'oubliez pas qu'il ne s'agit que de prendre de l'avance si vous le pouvez / souhaitez, mais nous reviendrons quoi qu'il en soit sur ce concept.
