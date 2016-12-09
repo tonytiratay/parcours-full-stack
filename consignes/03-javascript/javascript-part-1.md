@@ -54,7 +54,7 @@ CreerMenu("Accueil", false);
 ```
 **Créer un tableau**
 
-Créez une variable "menus" qui contiendra une liste d'objets. Vous vous en doutez, nous allons utiliser la fonction que nous avons crééé pour créer autant d'objets que notre site possède de sections.
+Créez une variable "menus" qui contiendra une liste d'objets. Vous vous en doutez, nous allons utiliser la fonction pour créer autant d'objets que notre site possède de sections.
 
 * Accueil
 * Formation
@@ -76,3 +76,5 @@ Les consignes ci dessous ne sont pas obligatoires. Elles ne concernent que les p
 * Par exemple, la section Travaux va contenir une liste travaux, dont vous connaissez déjà propriétés, puisque vous connaissez les titres des colonnes :)
 
 * Reprenez le code de l'exercice du plus ou moins, et essayez de le refaire en utilisant ces nouvelles connaissances. Je ne peux que vous le conseiller, cela rendra votre code beaucoup plus lisible, et utilisable. Essayez en le refaisant d'y mettre autant de "beauté" que vous pouvez. Une indentation parfaite, une description de chaque chose limpide, des noms de variables qui parlent, et en utilisant au maximum les éléments suivants : Fonctions, Objets, Tableaux.
+
+* Reprenez l'exerice du convertisseur HT TTC, et essayez de le réecrire intégralement en n'utilisant que des objets et des tableaux (qui eux peuvent contenir fonctions, string, numbers, boolean, tableaux ou autres objets).
