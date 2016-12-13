@@ -23,7 +23,7 @@ On continue la découverte du javascript en plongeant plus en détail sur les ob
 
 Reprenez votre CV HTML, et éditez les fichiers HTML et javascript pour modifier le menu. Pour cet exercice, vous devez avoir fait la partie obligatoire de la semaine précédente.
 
-** A partir de l'exercice de la semaine dernière donc, apportez les modifications suivantes. **
+**A partir de l'exercice de la semaine dernière donc, apportez les modifications suivantes.**
 
 * Effacez de votre fichier html les élements (liens) de menus
 * Utilisez la méthode de votre choix pour ajouter à l'aide du javascript les éléments (liens).
