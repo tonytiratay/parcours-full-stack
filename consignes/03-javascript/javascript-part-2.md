@@ -55,7 +55,7 @@ Cette même démarche est à faire pour les autres éléments de menus.
 
 * http://simplonline.co/ressources/ress-tutos/174-jouer-avec-une-classe-css-en-javascript
 
-Enfin, si vous osuhaitez pousser plus loin votre compréhension des objets et des tableaux, vous pouvez aller jeter un oeil à ces deux ressources.
+Enfin, si vous souhaitez pousser plus loin votre compréhension des objets et des tableaux, vous pouvez aller jeter un oeil à ces deux ressources, et tenter de les réussir par vous même :) (Les solutions sont données au cas où).
 
 * http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
 * http://simplonline.co/ressources/19-defis/151-exercice-javascript-les-tableaux
