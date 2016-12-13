@@ -59,3 +59,11 @@ Enfin, si vous souhaitez pousser plus loin votre compréhension des objets et de
 
 * http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
 * http://simplonline.co/ressources/19-defis/151-exercice-javascript-les-tableaux
+
+Enfin, vous pouvez retrouver sur OpenClassrooms une façon peut être différente d'expliquer. Je vous conseille de lire ces chapitres si vous pouvez vous le permettre, pour solidifier un peu votre pratique :)
+
+* https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-code-html-partie-1-2
+* https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-code-html-partie-2-2
+* https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/les-evenements-24
+* https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/les-formulaires-1
+* https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-css
