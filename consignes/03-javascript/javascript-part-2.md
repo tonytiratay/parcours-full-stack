@@ -47,5 +47,15 @@ Dans la partie Tableaux de votre CV, avec le même principe que le tableau de me
 
 #### Simplonline
 
-http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
-http://simplonline.co/ressources/19-defis/151-exercice-javascript-les-tableaux
+Appuyez vous sur cet exercice, et essayez de l'appliquer à votre cas pour changer l'apparence d'un menu, en fonction du clic de l'utilisateur.
+
+Par exemple, si je clique sur "accueil" alors il faut retirer la classe "actif" à tous les éléments de menus, et l'ajouter sur "accueil".
+
+Cette même démarche est à faire pour les autres éléments de menus.
+
+* http://simplonline.co/ressources/ress-tutos/174-jouer-avec-une-classe-css-en-javascript
+
+Enfin, si vous osuhaitez pousser plus loin votre compréhension des objets et des tableaux, vous pouvez aller jeter un oeil à ces deux ressources.
+
+* http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
+* http://simplonline.co/ressources/19-defis/151-exercice-javascript-les-tableaux
