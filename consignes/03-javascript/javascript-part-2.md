@@ -44,3 +44,8 @@ Dans la partie Tableaux de votre CV, avec le même principe que le tableau de me
 * Pensez à comment vous allez créer vos objets "travaux". Inspirez vous du même principe que pour les menus.
 * Créez une fonction, qui à partir d'un tableau fourni en paramètres, vide et rempli automatiquement les colonnes d'un tableau HTML
 * Créer une fonction de tri d'un tableau, qui renvoie le tableau trié selon des paramètres de votre choix (titre, date etc.)
+
+#### Simplonline
+
+http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
+http://simplonline.co/ressources/19-defis/151-exercice-javascript-les-tableaux
