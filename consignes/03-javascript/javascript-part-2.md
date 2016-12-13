@@ -36,9 +36,8 @@ Reprenez votre CV HTML, et éditez les fichiers HTML et javascript pour modifier
 
 Les consignes ci dessous ne sont pas obligatoires. Elles ne concernent que les personnes ayant le temps de pousser plus loin leur apprentissage.
 
-Ici le but va être d'essayer de créer des fonctions, en imaginant des besoins futurs pour une application permettant de mettre à jour un cv.
 
-#### Trier le tableau des Travaux
+#### Tableau des Travaux
 
 Dans la partie Tableaux de votre CV, avec le même principe que le tableau de menus, créez des objets  que vous allez stocker dans un tableau "travaux".
 
