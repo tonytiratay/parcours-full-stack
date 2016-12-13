@@ -4,6 +4,8 @@
 
 Continuer d'explorer un peu plus en profondeur le javascript. Ce mois ci y est consacré, y compris en fin de cycle du point de vue de se liens avec le HTML
 
+Pour voir la vidéo liée à cette semaine, c'est par [ici](https://www.youtube.com/watch?v=Ht49mt9TDQg)
+
 ## Playlist javascript
 
 
