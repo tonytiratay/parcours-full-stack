@@ -29,7 +29,7 @@ Reprenez votre CV HTML, et éditez les fichiers HTML et javascript pour modifier
 * Utilisez la méthode de votre choix pour ajouter à l'aide du javascript les éléments (liens).
 
 > #### Astuce
-> Vous avez déjà écrit le code qui contient dans la variable "menus" un tableau d'objets avec un titre et un lien. Vous pouvez donc faire une boucle sur ce tableau, et pour chaque élément trouvé dans le tableau, générer un élement HTML qui contient le titre, et fait un lien vers la propriété "lien" de l'objet en cours
+> Vous avez déjà écrit le code qui contient dans la variable "menus" un tableau d'objets avec un titre et un état. Vous pouvez donc faire une boucle sur ce tableau, et pour chaque élément trouvé dans le tableau, générer un élement HTML qui contient le titre de l'objet en cours
 
 
 ## Pour aller plus loin
@@ -60,7 +60,7 @@ Enfin, si vous souhaitez pousser plus loin votre compréhension des objets et de
 * http://simplonline.co/ressources/13-ressources/152-exercice-javascript-les-objets
 * http://simplonline.co/ressources/19-defis/151-exercice-javascript-les-tableaux
 
-Enfin, vous pouvez retrouver sur OpenClassrooms une façon peut être différente d'expliquer. Je vous conseille de lire ces chapitres si vous pouvez vous le permettre, pour solidifier un peu votre pratique :)
+Enfin, vous pouvez retrouver sur OpenClassrooms une façon peut être différente d'expliquer. Je vous conseille de lire ces chapitres si vous pouvez vous le permettre, pour solidifier un peu votre pratique, et commencer aussi à prendre un peu d'avance avec les événements :)
 
 * https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-code-html-partie-1-2
 * https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/manipuler-le-code-html-partie-2-2
