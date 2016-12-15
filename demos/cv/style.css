@@ -1,0 +1,90 @@
+/*Ici vient votre code CSS*/
+
+body {
+  margin: 0;
+  margin-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background: url(img/cv-bg-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#main-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 70px;
+  line-height: 70px;
+  padding-left: 10px;
+  background-color: #FF530D;
+  color: white;
+}
+
+.button-nav {
+  padding: 10px;
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+}
+.button-nav:hover {
+  background: #fff;
+  color: #FF530D;
+}
+
+.logo-nav {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  border: 1px solid white;
+}
+
+section {
+  padding: 30px;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gros-titre {
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 30px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  border: #fff 2px solid;
+}
+
+#accueil img {
+  margin-top: 15px;
+  width: 180px;
+}
+
+#formation {
+  background: url(img/cv-bg-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#travaux {
+  background: url(img/cv-bg-4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact {
+  background: url(img/cv-bg-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
