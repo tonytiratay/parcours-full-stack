@@ -23,7 +23,7 @@ var menus = [
   maFonction({ titre: "Contact", actif: false})
 ];
 
-// On peut aussi utiliser la métgode push pour ahouter un élément à
+// On peut aussi utiliser la méthode push pour ajouter un élément à
 // un tableau, ou la méthode pop pour en retirer un.
 
 var tableau = [];
@@ -55,7 +55,7 @@ var creerTravaux = function(obj){
 };
 
 
-// On utilise cette fonction pour peupler le tableau
+// On utilise cette fonction pour peupler le tableau javascript
 
 travaux.push(  creerTravaux({
   titre: "CV HTML",
@@ -68,6 +68,9 @@ console.log(travaux);
 
 // Vous pouvez utiliser l'aide ci dessous pour vous aider
 // pour l'exercice de cette semaine.
+
+// On utilise le tableau javascript créé pour la fonction ci dessous
+// dont le but est de créer le tableau HTML
 
 var remplirTableau = function(tableau){
  // tableau contient X élements.
