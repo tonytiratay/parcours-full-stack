@@ -1,6 +1,10 @@
 console.log('ça marche');
 
-
+// Ici on créé une fonction, en prenant l'habitude dés maintenant
+// de lui passer comme paramètres un objet.
+// On peut ensuite au sein de la fonction faire les manipulations
+// nécéssaires pour prendre les données dont on a besoin.
+// On contrôle finalement avec le return l'objet que l'on renvoie.
 var maFonction = function(obj){
   var titre = obj.titre; var actif = obj.actif;
   return {
@@ -9,7 +13,8 @@ var maFonction = function(obj){
   };
 };
 
-// console.log(maFonction("Accueil", false));
+// Maintenant que la fonction est créée on peuple un tableau
+// en l'utilisant.
 
 var menus = [
   maFonction({ titre: "Accueil", actif: false}),
@@ -18,15 +23,24 @@ var menus = [
   maFonction({ titre: "Contact", actif: false})
 ];
 
-// console.log(menus);
+// On peut aussi utiliser la métgode push pour ahouter un élément à
+// un tableau, ou la méthode pop pour en retirer un.
 
 var tableau = [];
-tableau.push("Accueil");
-tableau.push("Formation");
+tableau.push(maFonction({ titre: "Accueil", actif: false}));
 tableau.pop();
 console.log(tableau);
 
+
+// On peut utiliser un principe similaire au code ci dessus
+// pour nous occupper de la section travaux de notre site.
+
+// On créé un tableau pour stocker les travaux
+
 var travaux = [];
+
+// On créé une fonction pour retourner un objet qui contient les propriétés
+// nécéssaires au remplissage de notre code html
 
 var creerTravaux = function(obj){
   var titre = obj.titre; var vignette = obj.vignette;
@@ -40,6 +54,9 @@ var creerTravaux = function(obj){
   };
 };
 
+
+// On utilise cette fonction pour peupler le tableau
+
 travaux.push(  creerTravaux({
   titre: "CV HTML",
   vignette: "http://google.fr/images/monimage.jpg",
@@ -49,7 +66,8 @@ travaux.push(  creerTravaux({
 
 console.log(travaux);
 
-TR > TD
+// Vous pouvez utiliser l'aide ci dessous pour vous aider
+// pour l'exercice de cette semaine.
 
 var remplirTableau = function(tableau){
  // tableau contient X élements.
@@ -70,13 +88,8 @@ var genererColonneHTML = function(tableaux[i]){
   // date: "15/12/2016-19:26"
   // }
 
-
-
-
 };
 
 }
-
-
 
 };
