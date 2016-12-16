@@ -87,10 +87,10 @@ for (var i=0; i < tableaux.length, i++){
     //Le code javascript pour créer une ligne en HTML
     // Pré remplir le HTML avec l'objet en cours
     // {
-    //   titre: "CV HTML",
-    // vignette: "http://google.fr/images/monimage.jpg",
-    // technologie: "HTML / CSS",
-    // date: "15/12/2016-19:26"
+    //  titre: "CV HTML",
+    //  vignette: "http://google.fr/images/monimage.jpg",
+    //  technologie: "HTML / CSS",
+    //  date: "15/12/2016-19:26"
     // }
   };
 };
