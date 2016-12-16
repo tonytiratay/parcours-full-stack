@@ -1,4 +1,3 @@
-console.log('ça marche');
 
 // Ici on crée une fonction, en prenant l'habitude dés maintenant
 // de lui passer comme paramètres un objet.
