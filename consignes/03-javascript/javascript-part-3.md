@@ -78,4 +78,10 @@ Comme chaque semaine, les consignes ci dessous sont optionnelles, et ne concerne
 
 #### Générateur de tableaux
 
-Arrive bientôt :)
+Essayez de créer un générateur de tableau HTML, avec les contraintes suivantes:
+
+* 2 inputs permettent à l'utilisateur de préciser combien de colonnes, et combien de lignes il souhaite créer
+* Un bouton permet une fois les valeurs saisies de générer un tableau HTML.
+* Tableau génere x lignes de y colonnes, et chaque case contient une case à cocher.
+* chaque case à cocher possede un identifiant unique, généré à partir de sa position sur la ligne, et sur la colonne.
+* Par exemple: la premiere case peut avoir comme identifiant A1. La deuxieme sur la même ligne A2. La premiere case de la seconde ligne B1 etc.
