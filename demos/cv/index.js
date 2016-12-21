@@ -24,13 +24,34 @@ var menus = [
   maFonction({ titre: "Contact", actif: false})
 ];
 
+var remplirMenu = function(tab){
+
+  for (var i = 0; i < tab.length; i++) {
+
+    var genererMenu = function(){
+      var lien = document.createElement('a');
+      var titre = document.createTextNode(tab[i].titre);
+      lien.setAttribute('href', '#'+tab[i].titre );
+      lien.setAttribute('class', 'button-nav' );
+      lien.appendChild(titre);
+      var menu = document.getElementById("main-nav");
+      menu.appendChild(lien);
+    };
+
+    genererMenu();
+
+  }
+
+};
+remplirMenu(menus);
+
+
 // On peut aussi utiliser la méthode push pour ajouter un élément à
 // un tableau, ou la méthode pop pour en retirer un.
 
 var tableau = [];
 tableau.push(maFonction({ titre: "Accueil", actif: false}));
 tableau.pop();
-console.log(tableau);
 
 
 // On peut utiliser un principe similaire au code ci dessus
@@ -65,7 +86,6 @@ travaux.push(  creerTravaux({
   date: "15/12/2016-19:26"
 }));
 
-console.log(travaux);
 
 // Vous pouvez utiliser l'aide ci dessous pour vous aider
 // pour l'exercice de cette semaine.
@@ -73,23 +93,35 @@ console.log(travaux);
 // On utilise le tableau javascript créé pour la fonction ci dessous
 // dont le but est de créer le tableau HTML
 
-var remplirTableau = function(tableau){
+var remplirTableau = function(travaux){
  // tableau contient X élements.
  // faire une boucle dans le tableau
  // pour à chaque élément executer une fonction
  // cette fonction doit prendre l'objet actuel du tabelau
  // Et générer le html pré-rempli, avec l'élément actuel du tableau
 
-for (var i=0; i < tableaux.length, i++){
+for (var i = 0; i < travaux.length; i++) {
 
-  var genererColonneHTML = function(tableaux[i]){
-    //Le code javascript pour créer une ligne en HTML
-    // Pré remplir le HTML avec l'objet en cours
-    // {
-    //  titre: "CV HTML",
-    //  vignette: "http://google.fr/images/monimage.jpg",
-    //  technologie: "HTML / CSS",
-    //  date: "15/12/2016-19:26"
-    // }
+  var genererColonneHTML = function(){
+
+    var colonne = document.createElement('div');
+    var titre = document.createTextNode(travaux[i].titre + ' / ');
+    var vignette = document.createTextNode(travaux[i].vignette + ' / ');
+    var technologie = document.createTextNode(travaux[i].technologie + ' / ');
+    var date = document.createTextNode(travaux[i].date);
+
+
+    colonne.appendChild(titre);
+    colonne.appendChild(vignette);
+    colonne.appendChild(technologie);
+    colonne.appendChild(date);
+
+    var div = document.getElementById("tableau");
+
+    div.appendChild(colonne);
+
   };
-};
+  genererColonneHTML();
+}};
+
+remplirTableau(travaux);

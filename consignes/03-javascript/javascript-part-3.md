@@ -2,6 +2,9 @@
 
 **Bonjour à tous,**
 
+Cette semaine sera consacrée presque exclusivement à de la pratique. Vous trouverez dans les ressources quelques vidéos qui concernent des sujets qui n'ont pas encore été abordés, comme la gestion des événements, mais l'essentiel du travail consiste à réutiliser toutes les connaissances que vous avez acquises depuis le début.
+
+Vous trouverez [ici](https://www.youtube.com/watch?v=vGoyZD-TA28) la retransmission du point vidéo pour les exercices de la semaine précédente, et [ici]() le lien vers le code montré dans la vidéo.
 
 ## Playlist javascript
 
@@ -13,22 +16,4 @@
 
 ## Exercices
 
-#### CV
-
-Reprenez votre CV HTML, et éditez votre fichier js pour y coder ce qui suit.
-
-**Créer une fonction**
-
-```javascript
-
-// var CreerMenu = function(titre, actif){
-// ...
-// };
-
-```
-**Créer un tableau**
-
-
-## Pour aller plus loin
-
-Les consignes ci dessous ne sont pas obligatoires. Elles ne concernent que les personnes ayant le temps de pousser plus loin leur apprentissage.
+#### Générateur de tableaux
