@@ -7,7 +7,7 @@ Cette dernière semaine de préparation au javascript se termine par un projet :
 
 Est-ce que vous connaissez le jeu [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/) ? Le principe du jeu est très simple : vous devez faire le plus de cookie à la seconde.
 
-** Comment ? **
+**Comment ?**
 
 Au début, en cliquant sur le gros cookie. Puis vous allez engendrer des points qui vont vous permettre d'acheter une grand-mère, une usine, une ferme, etc...
 
@@ -57,9 +57,12 @@ Acheter plein de multiplicateurs est trop facile. Essayez à partir de l'étape 
 
 Par exemple, le premier vaudrait 50, le suivant 100, le suivant 200, etc. Pas la peine de vous compliquer la vie, ne faites pas pleins de conditions :) Trouvez une autre façon de faire évoluer le prix !
 
+# Les étapes suivantes sont optionnelles
+
 #### Étape 10 : affichage du prix
 
 Dans le texte du bouton, en plus du « x5 », ajouter le coût du prochain achat.
+
 
 #### Étape 11 : autoclicker
 
@@ -67,7 +70,7 @@ Nouvelle amélioration à acheter : Autoclick. Dès que vous avez un score de 20
 
 Pour cela, vous aurez besoin de [setInterval](http://www.xul.fr/ecmascript/settimeout.php) pour exécuter automatiquement la même fonction que le onclick du premier bouton.
 
-#### Étape 12 : innovez
+#### Étape 12 : Améliorez
 
 Améliorez votre CSS en utilisant des images pour que votre site ressemble le plus possible à l'original ! Vous pouvez chercher sur google images un cookie.
 
