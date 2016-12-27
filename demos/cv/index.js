@@ -110,7 +110,6 @@ for (var i = 0; i < travaux.length; i++) {
     var technologie = document.createTextNode(travaux[i].technologie + ' / ');
     var date = document.createTextNode(travaux[i].date);
 
-
     colonne.appendChild(titre);
     colonne.appendChild(vignette);
     colonne.appendChild(technologie);
@@ -125,3 +124,19 @@ for (var i = 0; i < travaux.length; i++) {
 }};
 
 remplirTableau(travaux);
+
+var sections = [{
+  titre: "Accueil",
+  texteAccueil: "Je suis le titre de la section Accueil",
+  imageBackground: "http://lorempixel.com/1920/1080/city/"
+}];
+
+function(tableau de sections){
+
+fait une boucle pour chaque element du tableau
+> fonction dont le but est de générer un nouveau lien de menu
+> une nouvelle section
+> un nouveau h1 dans la section
+> Modifier le style background de la section pour changer l'image
+
+}
