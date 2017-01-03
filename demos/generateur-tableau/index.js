@@ -1,14 +1,22 @@
 var tableau = {
 
   getColonnes: function () {
+
+    // Récupère dans le champ la valeur souhaitée
     return document.getElementById('colonnes').value;
   },
 
   getLignes: function () {
+
+    // Récupère dans le champ la valeur souhaitée
     return document.getElementById('lignes').value;
   },
 
   createCellule: function (id) {
+
+    //Renvoie dans un objet js un "td" HTML avec comme enfant
+    //un input de type checkbox, avec le bon identifiant
+
     var cell = document.createElement('td');
     var input = document.createElement('input');
     input.type = "checkbox";
@@ -22,7 +30,12 @@ var tableau = {
   },
 
   createLigne: function (line) {
+
+    // Récupère la valeur du champ "colonnes" et fait une boucle
+    // pour créer autant de cellules que nécessaire.
+
     var cellules = document.createElement('tr');
+
     for (var i = 0; i < this.getColonnes(); i++){
       var id = "l" + line + "c" + (i+1);
       cellules.appendChild(this.createCellule(id));
@@ -32,6 +45,9 @@ var tableau = {
   },
 
   nettoyerHTML: function () {
+
+    // Vérifie si un tableau avec un identifiant "table" existe, et si oui alors le supprime.
+
     var parent = document.getElementById("table-container");
     var child = document.getElementById("table");
     if(child){
@@ -40,6 +56,11 @@ var tableau = {
   },
 
   genererHTML: function () {
+
+    //Générer des lignes autant que la valeur du champs "lignes"
+    // Fait une boucle et on appelle la fonction "créer une ligne"
+    // autant de fois que nécessaire
+
     var parent = document.getElementById("table-container");
     var table = document.createElement('table');
     table.id = "table";
