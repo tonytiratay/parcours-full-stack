@@ -1,0 +1,16 @@
+
+/*input, .titre-input, button {
+  float: left;
+  line-height: 20px;
+  margin: 10px;
+}*/
+
+/*.clear {
+  clear: both;
+}*/
+
+td {
+  text-align: center;
+  border: #cdcdcd solid 1px;
+  padding: 15px;
+}
