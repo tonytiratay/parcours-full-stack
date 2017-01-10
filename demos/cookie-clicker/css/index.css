@@ -1,0 +1,26 @@
+
+body {
+  background: url(../img/bg3.jpg);
+  background-size: cover;
+}
+
+.logo {
+  text-align: center;
+  padding: 15px;
+  background: black;
+  font-size: 50px;
+  color: white;
+}
+
+#bouton {
+  width:100%;
+  max-width: 400px;;
+  padding: 20px;
+}
+
+#affichage {
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
