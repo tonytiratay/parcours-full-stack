@@ -12,7 +12,7 @@ Cette semaine nous allons donc utiliser ces connaissances pour continuer de dév
 
 > #### Note
 > Afin de pouvoir suivre au mieux cet exercice, je vous recommande d'être à jour dans les méthodes et fonctionnalités ES6.
-> Vous pouvez trouver un [petit aide mémoire sur les nouveautés ici]().
+> Vous pouvez trouver un [petit aide mémoire sur les nouveautés ici](https://github.com/tonytiratay/parcours-full-stack/blob/master/javascript/es6/ES6-CheatSheet.md).
 
 Suite à l'observation du cookie clicker original, nous avons pu observer que les éléments du store avaient les propriétés suivantes :
 
