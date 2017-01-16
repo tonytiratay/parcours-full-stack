@@ -10,8 +10,8 @@ var autoClickBtn = document.getElementById('autoclickbtn');
 
 var score = 0;
 var compteur = 1;
-var prixCompteur = 50;
-var prixAutoClick = 150;
+var prixCompteur = 1;
+var prixAutoClick = 1;
 var autoclick = false;
 var delay = 1000;
 
@@ -37,6 +37,7 @@ var incrementer = function(){
   $('.ui.basic.modal')
     .modal('show')
   ;
+
 };
 
 // Détecter le clique
