@@ -102,9 +102,129 @@ Pour commencer à tracker notre projet avec Git, il suffit de taper
 * .gitignore
 * package.json
 
-Nous allons ensuite créer les répertoires suivants :
+Nous allons ensuite créer les répertoires et fichiers suivants :
 
 * client
-* server
+  * index.js
 * public
+  * img
 * imports
+  * startup
+    * client.js
+  * components
+  * containers
+  * ui
+    * body.html
+    * body.js
+
+## Premier commit
+
+Maintenant que nous avons notre structure de base, nous allons faire notre premier commit. Pour rappel, un commit est un "instantanné" de notre code. Une sauvegarde à un instant t de l'état de notre travail.
+
+Pour vérifier ce qui est suivi ou non par git nous pouvons taper la commande ```git status```.
+
+On peut voir que nos changements sont en rouge, et que donc notre travail n'est pas enregistré par git.
+
+```git add .```
+Cette commande ajoute à git tout ce qui se trouve dans le repertoire actuel du terminal
+
+```git commit -m"Création de la structure des dossiers"```
+
+Cette commande créé un commit, et enregistre donc l'état des fichiers. On y ajoute un message, à l'aide du **-m"Création de la structure des dossiers"**
+
+Les messages que l'on ajoute sont par convention écris au présent, et décrivent précisement ce qui a changé depuis le dernier commit.
+
+## Notre premier code ES6
+
+Nous allons découvrir le principe des imports export en ES6. Ce principe est très proche de celui utilisé par Node pour l'utilisation de ses paquets.
+
+> #### Note
+> Par défaut Meteor charge automatiquement tout fichier que ce soit javascript ou css. C'est un comportement utile en période de test et de développement, mais absolument non souhaité lorsque l'on souhaite créer un site optimal.
+
+Heureusment, il existe une solution pour palier à ce problème, le dossier **import**.
+
+> Tout ce qui est placé à l'intérieur de ce dossier n'est PAS chargé, à moins d'être appelé explicitement.
+
+Dans le fichier index.js du dossier client, nous allons importer le code depuis notre dossier imports.
+
+```javascript
+import '/imports/startup/client';
+```
+
+Ce code va permettre à notre javascript côté client de récupérer le code dont nous allons avoir besoin.
+
+Presque tout le code que nous écrirons se trouvera dans le dossier import. Cela nous permettra de l'appeler quand et si besoin, que ce soit depuis le client ou le serveur.
+
+Nous allons maintenant, pour nous assurer que notre fichier est bien chargé, ajouter une petite ligne de code dans le fichiers /imports/startup/client.js
+
+```javascript
+alert('It works!');
+```
+
+Dans la console, si ça n'est pas déjà fait, tapez **meteor** afin de lancer le serveur local, et rendez vous sur la page http://localhost:3000 pour voir votre travail.
+
+![image alt text](001.jpg)
+Nous allons donc pouvoir commencer à coder notre projet.
+
+## Objectifs de la semaine
+
+* Choisir le framework Semantic UI et l'utiliser avec Meteor
+* Découverte de Blaze
+* Créer une structure HTML basique du site à l'aide de Blaze
+
+Pour utiliser Semantic UI, il suffit une fois que vous avez décompressé les fichiers de placer les fichiers css et js dans le dossier client. Pour qu'ils soient appelés en premier, vous pouvez soit les renommer avec un _ en premier caractère, soit les placer dans un dossier dont le nom commence par _ aussi.
+
+Dans le dossier public de notre app, placez le dossier **themes** afin qu'il soit accessible et que les icones du framework fonctionnent.
+
+
+
+A l'intérieur de body.html (dans imports/ui) ajoutez le code suivant :
+
+```html
+<body>
+  <div>
+    <header>
+      <h1>Store</h1>
+    </header>
+
+    <ul>
+      {{#each storeElements}}
+        {{> storeElement}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name="storeElement">
+  <li>{{titre}}</li>
+</template>
+```
+
+Dans le fichier body.js (dans imports/ui) doit lui contenir ce code :
+
+```javascript
+import { Template } from 'meteor/templating';
+import './body.html';
+
+Template.body.helpers({
+  storeElements: [
+    { titre: 'Curseur' },
+    { titre: 'Grand mère' },
+    { titre: 'Ferme'}
+  ],
+});
+```
+
+Pour que ce code soit pris en compte et chargé dans notre application, nous devons l'importer dans notre client.
+
+Notre client charge déjà par défaut le contenu du fichier client.js dans imports/startup. Il nous suffit donc de modifier ce fichier pour qu'il appelle notre premier template. Nous pouvons en profiter pour supprimer l'alert que nous y avons placé.
+
+Le fichier client.js doit désormais ressembler à ça.
+
+```javascript
+import '/imports/ui/body.js';
+```
+
+Tapons **meteor** dans le terminal si votre serveur n'est pas déjà lancé, et allons vérifier notre site.
+
+Vous devriez y voir apparaitre une liste avec les premiers éléments de notre store.
