@@ -105,6 +105,7 @@ Pour commencer à tracker notre projet avec Git, il suffit de taper
 Nous allons ensuite créer les répertoires et fichiers suivants :
 
 * client
+  * index.html
   * index.js
 * public
   * img
