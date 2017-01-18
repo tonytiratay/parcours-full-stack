@@ -20,28 +20,30 @@ class Parent {
     this.name = name;
   }
   methode1() {
-    return "Je suis " + this.name
+    return console.log("Je suis " + this.name);
   }
   methode2() {
-    return "Yipiiii"
+    return console.log("Yipiiii");
   }
 }
-var pere = new Parent(name = "Bob");
+var pere = new Parent("Bob");
 pere.methode1(); // Renvoie "Je suis Bob"
 
 class Child extends Parent {
-  constructor(){
-    super();
-    this.filsDe = "Bob"
+  constructor(name){
+    super(name);
+    this.filsDe = "Bob";
   }
   methode3(){
-    return "Je suis le fils de " + this.filsDe;
+    return console.log("Je suis le fils de " + this.filsDe);
   }
 }
 var thomas = new Child("Thomas");
+
 thomas.methode1(); // Renvoie "Je suis Thomas"
 thomas.methode2(); // Renvoie Yipiiii
 thomas.methode3(); // Renvoie "Je suis le fils de Bob"
+
 ```
 > Ici la classe parent nous permet de définir une propriété, qui sera accessible individuellement par chacune de ses instances (ici pere est une instance de parent). La classe Child hérite de ces mêmes paramètres, et ajoute une propriété "Fils de" dont toutes les instances hériteront aussi. Ici Thomas est une instance de la classe Child.
 
