@@ -38,7 +38,7 @@ class Child extends Parent {
     return "Je suis le fils de " + this.filsDe;
   }
 }
-var thomas = new Child();
+var thomas = new Child("Thomas");
 thomas.methode1(); // Renvoie "Je suis Thomas"
 thomas.methode2(); // Renvoie Yipiiii
 thomas.methode3(); // Renvoie "Je suis le fils de Bob"
