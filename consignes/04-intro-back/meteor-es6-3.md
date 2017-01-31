@@ -23,6 +23,7 @@ Chaque élément doit afficher les informations utiles parmi celles ci dessous.
 
 * Titre
 * Coefficient (pour le multiplicateur uniquement)
+* Délai (pour l'autoClick uniquement)
 * Quantité (le cas échéant)
 * Cookies par seconde (le cas échéant)
 
@@ -31,8 +32,9 @@ Chaque élément doit afficher les informations utiles parmi celles ci dessous.
 AutoClick
 
 * Seulement si score suffisant
-* Gratuit une fois acheté
-* Permet toujours de commuter l'AutoClick
+* Commence par un délai d'une fois toutes les 2 secondes
+* Le prix évolue
+* Le délai est 25% plus rapide à chaque achat
 
 Multiplicateur
 
