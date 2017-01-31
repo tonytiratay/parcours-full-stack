@@ -65,4 +65,8 @@ Autres
 * N'hésitez pas à modifier le storeElement.js et / ou storeElements.js pour vous simplifier la vie.
 * Créez autant de variables réactives que nécessaire dans system.js
 * N'oubliez pas d'importer les variables que vous créez là où vous les utilisez
-* Ces variables fonctionnent uniquement avec .get() et .set(nouveauContenu)
+* Ces variables fonctionnent uniquement avec
+```javascript
+maVariable.get();
+maVariable.set(nouveauContenu);
+```
