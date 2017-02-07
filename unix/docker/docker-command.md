@@ -83,5 +83,10 @@ docker ps
 
 ## Docker inspect #containerID
 
-Affiche en json les infos d'un container.
+Affiche en json les infos "low level" d'un container.
 Par exemple son adresse IP, MAC ou ses ports
+
+```unix
+docker inspect #containerID
+```
+![image alt text](img/docker-inspect.png)
