@@ -18,7 +18,7 @@ Docker lance le processus dans le container et attache à la console les process
 docker run busybox echo "hello world"
 => Créé le container à partir de l'image
 => L'instruction " echo 'hello world' " est executée
-=> Le stdout est transmi à la console
+=> Le stdout est transmit à la console
 => La console renvoie: hello world
 ```
 ### Arrêt automatique du processus
