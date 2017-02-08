@@ -47,6 +47,15 @@ docker ps -a
 ```
 ![image alt text](img/docker-name.png)
 
+### Spécifier un port
+
+Pour mapper le port d'un container avec celui d'un serveur:
+
+* -p 8888:8080 : Joint le port 8080  du container avec le port 8888 du serveur
+
+> Si je me rend sur http://monsite.com:8888 j'arrive sur le port d'écoute 8080 du container
+
+
 ### Autres options
 
 * -i : lance un container interactif
@@ -67,6 +76,15 @@ docker run -d #imageId
 => Le container est créé et lancé en arriere plan
 => La console reçoit le containerId
 ```
+
+## Dockers logs
+
+Prend en paramètre l'identifiant d'un container et retourne des logs
+
+```
+docker logs #containerId
+```
+
 
 ## Docker ps
 
