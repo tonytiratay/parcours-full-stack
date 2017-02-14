@@ -2,7 +2,7 @@
 
 ## Objectifs de cette semaine
 
-> Cette semaine nous allons introduire les notions suivantes, qui sont valables aussi bien pour le front que pour le back.
+> Cette semaine nous allons introduire les notions suivantes. La plupart d'entre elles sont valables aussi bien pour le front que pour le back.
 
 * Routing
 * Layout
@@ -53,7 +53,7 @@ meteor add okgrow:accounts-ui-react
  ```javascript
  import '../routes/routes.js';
  ```
- ** /imports/routes/routes.js**
+ **/imports/routes/routes.js**
  ```javascript
  import React from 'react';
  import {mount} from 'react-mounter';
@@ -70,7 +70,7 @@ meteor add okgrow:accounts-ui-react
  });
 
  ```
- ** /imports/layouts/MainLayout.js**
+ **/imports/layouts/MainLayout.js**
  ```javascript
  import React from 'react';
  import { Segment, Grid } from 'semantic-ui-react'
@@ -85,7 +85,7 @@ meteor add okgrow:accounts-ui-react
    </div>
  );
  ```
- ** /imports/pages/Home.js**
+ **/imports/pages/Home.js**
  ```javascript
  import React, {Component} from 'react';
 
