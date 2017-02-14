@@ -54,42 +54,44 @@ Oui, si elles concernent de près ou de loin des éléments pas ou peu compris d
 
 #### Mois 1 - Traverser la prairie
 
-A travers des cours et exercices très variés vous apprendrez à prendre en main les outils qui vous serviront tout au long de la formation. Le but n’est pas de retenir tout ce que vous y verrez, mais de toucher un maximum à tout (html, css, javascript, ruby, le terminal et Git, notamment) et de vous "acculturer" au numérique avec de nombreuses fiches culture geek (les API, les hackatons, la méthode du canard etc.)
+A travers des cours et exercices très variés vous apprendrez à prendre en main les outils qui vous serviront tout au long de la formation. Le but n’est pas de retenir tout ce que vous y verrez, mais de toucher un maximum à tout (html, css, javascript, ruby, le terminal et Git, notamment).
 
 #### Mois 2 - A l’attaque du front end
 
-Nous attaquons pendant ces 4 semaines une exploration approfondie des possibilités offertes par le HTML et le CSS. Parallèlement à ces technologies, nous explorerons doucement le javascript. Nous y rencontrerons également différents frameworks de mise en page, comme Bootstrap ou Foundation.
+Nous attaquons pendant ces 4 semaines une exploration approfondie des possibilités offertes par le HTML et le CSS. Parallèlement à ces technologies, nous explorerons doucement le javascript. Nous y rencontrerons également différents frameworks de mise en page, comme Bootstrap.
 
 #### Mois 3 - Interactions et logique, voici javascript
 
 Dédié à l’exploration des pouvoirs de ce langage, nous aborderons ici beaucoup d’exemples concrets d’utilisation, de notions théoriques et de nombreuses bibliothèques pour augmenter vos capacités créatives dans l’utilisation de ce langage.
 
-#### Mois 4 - Découverte du Back End avec Node JS
+#### Mois 4 - Découverte de React et intro Meteor
 
-Node Js est une librairie qui permet d’utiliser le langage javascript pour contrôler le serveur, et votre ordinateur. Même pour ceux qui souhaiteraient s’orienter vers un autre langage pour le côté serveur, Node est utilisé en développement pour faciliter la vie du développeur. Vous découvrirez donc la polyvalence de cette technologie, qui permet grâce à un seul et même langage (le javascript) de créer des sites internet, des applications mobile ou tablette, ou même des logiciels.
+Meteor Js est une librairie qui permet d’utiliser le langage javascript pour contrôler le serveur, et votre ordinateur. Vous découvrirez donc la polyvalence de cette technologie, qui permet grâce à un seul et même langage de créer des sites internet, des applications mobile ou tablette, ou même des logiciels. React quand à lui est un framework utilisé pour gérer le côté client de sites complexes. Créé et utilisé par Facebook, il est idéal pour écrire un code modulaire et réutilisable.
 
 #### Mois 5 et 6 - Approfondissement et spécialisation
 
-En fonction de vos appétences, vous découvrirez les bonnes pratiques, méthodes et technologies recherchées par les entreprises. Nous pousserons au maximum la pratique des frameworks les plus demandés, qu’il s’agisse du front end ou du back end.
+En fonction de vos appétences, vous découvrirez les bonnes pratiques, méthodes et technologies. Nous pousserons au maximum la pratique des frameworks les plus demandés, qu’il s’agisse du front end ou du back end. Nous y découvrirons notamment comment créer une API avec Node, pour le back, et la méthode "Redux" pour gérer des sites et applications complexes pour le front.
 
 #### Au total, pendant cette formation les apprenants auront abordé les sujets suivants :
 
 * Le terminal et les lignes de commande
 * Git et Github
-* SQL / Mongo DB
-* MVC
+* Mongo DB
 * Protocoles (HTTP, POP etc.)
 * Les requêtes et verbes HTTP
 * HTML / CSS
 * Javascript / jQuery
 * Bootstrap / Semantic UI
-* React
+* POO
+* API / Json
+* Ajax / Promises
+* React / Jsx
 * ES2015
 * Promises
-* POO
 * Node
 * Meteor
 * Packages Node / Meteor
+* Redux / Store / Reducers / Actions
 
 #### A l’issu de cette formation les apprenants seront en mesure de :
 
