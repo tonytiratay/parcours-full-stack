@@ -22,7 +22,8 @@ Cliquez sur un package pour accéder à sa documentation
 * [lodash](https://www.npmjs.com/package/lodash)
 * [url](https://www.npmjs.com/package/url)
 * [react-komposer](https://www.npmjs.com/package/react-komposer)
-* [classnames](https://www.npmjs.com/package/classnames) [react-mounter](https://github.com/kadirahq/react-mounter)
+* [classnames](https://www.npmjs.com/package/classnames)
+* [react-mounter](https://github.com/kadirahq/react-mounter)
 
 ```bash
 meteor npm install --save axios lodash url react-komposer classnames react-mounter
@@ -37,7 +38,6 @@ Cliquez sur un package pour accéder à sa documentation
 * [accounts-base](https://atmospherejs.com/meteor/accounts-base)
 * [accounts-github](https://atmospherejs.com/meteor/accounts-password)
 * [okgrow:accounts-ui-react](https://github.com/okgrow/accounts-ui-react)
-* [github-config-ui](https://atmospherejs.com/meteor/github-config-ui)
 
 ```bash
 meteor add kadira:flow-router-ssr
@@ -45,7 +45,6 @@ meteor add themeteorchef:bert
 meteor add accounts-base
 meteor add accounts-github
 meteor add okgrow:accounts-ui-react
-meteor add github-config-ui
 ```
 
 ### Lier le router aux layout et composants
@@ -104,6 +103,13 @@ meteor add github-config-ui
  ```
 ## Exercice Github
 
+> ####  Adresse pour l'API Github :
+> https://api.github.com/search/repositories?q=
+> * Ajouter après le 'q=' le terme à chercher
+> * L'API renvoie un objet avec 'data' comme propriété
+> * La proprité data contient uune propriété 'items'
+> * 'items' contient un tableau avec les résultats
+
 **Composants**
 
   * Créer un Container github
@@ -128,3 +134,4 @@ meteor add github-config-ui
  * Lors du componentWillMount faire la requete avec les valeurs par défaut
  * Passer au composant search une méthode pour récupérer la valeur saisie
  * Debouncer la méthode
+ * Alerter l'utilisateur lors d'une erreur avec la requête
