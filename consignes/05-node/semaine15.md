@@ -49,7 +49,7 @@ meteor add okgrow:accounts-ui-react
 
 ### Lier le router aux layout et composants
 
- ** /imports/startup/startup-client.js**
+ **/imports/startup/startup-client.js**
  ```javascript
  import '../routes/routes.js';
  ```
