@@ -110,6 +110,9 @@ meteor add okgrow:accounts-ui-react
 > * La proprité data contient uune propriété 'items'
 > * 'items' contient un tableau avec les résultats
 
+**Postman**
+Postman est un logiciel fait pour travailler avec des API, pour les tester. Vous pouvez le télécharger ici : https://www.getpostman.com/
+
 **Composants**
 
   * Créer un Container github
