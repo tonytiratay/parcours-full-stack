@@ -101,7 +101,7 @@ meteor add okgrow:accounts-ui-react
    }
  }
  ```
-## Exercice Github
+## API Github
 
 > ####  Adresse pour l'API Github :
 > https://api.github.com/search/repositories?q=
