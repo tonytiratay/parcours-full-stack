@@ -109,9 +109,11 @@ meteor add okgrow:accounts-ui-react
 > * L'API renvoie un objet avec 'data' comme propriété
 > * La proprité data contient uune propriété 'items'
 > * 'items' contient un tableau avec les résultats
+> * [Documentation API Github](https://developer.github.com/v3/search/)
 
 **Postman**
 Postman est un logiciel fait pour travailler avec des API, pour les tester. Vous pouvez le télécharger ici : https://www.getpostman.com/
+
 
 **Composants**
 
