@@ -133,5 +133,5 @@ meteor add okgrow:accounts-ui-react
  * GithubSeach importe les composants Search et UserCard
  * Lors du componentWillMount faire la requete avec les valeurs par défaut
  * Passer au composant search une méthode pour récupérer la valeur saisie
- * Debouncer la méthode
- * Alerter l'utilisateur lors d'une erreur avec la requête
+ * Debouncer la méthode avec 'lodash'
+ * Alerter l'utilisateur lors d'une erreur avec la requête avec 'Bert'
