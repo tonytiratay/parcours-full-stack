@@ -21,7 +21,7 @@ Avant de commencer cet exercice, je vous invite à consulter ces ressources:
 
 # Activité 2
 
-## A voir
+## On commence
 
 Avant de commencer cet exercice, je vous invite à consulter ces ressources:
 
@@ -35,7 +35,7 @@ Avant de commencer cet exercice, je vous invite à consulter ces ressources:
 
 ![Patience...](http://www.inspirednationonline.com/wp-content/uploads/2016/04/wait-1.png)
 
-## A faire
+## Pour aller plus loin
 
 * Constituer un dossier de travail par équipe de 3.
 * Réalisez une maquette
